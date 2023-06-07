@@ -26,7 +26,7 @@
             href="#waitlistForm"
             class="inline-block rounded-xl border-2 border-transparent bg-green-400 px-4 py-4 font-display font-bold text-white transition-all duration-200 hover:border-white md:px-6 md:py-5"
           >
-            Join our wishlist
+            Join our waitlist
           </a>
         </div>
         <div class="w-full md:w-5/12 relative">

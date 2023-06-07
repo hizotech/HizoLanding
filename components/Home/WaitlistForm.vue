@@ -28,7 +28,7 @@
             type="submit"
             class="flex-shrink-0 rounded-xl border-2 border-transparent bg-white px-4 py-4 font-display font-bold text-[#4845FF] transition-all duration-200 md:px-6 md:py-5"
           >
-            Join our wishlist
+            Join our waitlist
           </button>
         </form>
       </div>
