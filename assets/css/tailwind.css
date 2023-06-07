@@ -5,7 +5,7 @@ src: url('../font/YgroSansBeta-Bold.woff2') format('woff2'),
         url('../font/YgroSansBeta-Bold.woff') format('woff');
 }
 .font-display{
-    letter-spacing: -0.06rem !important
+    letter-spacing: -0.06rem
 }
 
 @tailwind base;

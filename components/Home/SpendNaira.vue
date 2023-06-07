@@ -13,7 +13,7 @@
         <div class="w-full md:w-5/12">
           <img src="" class="mb-4 h-auto w-5" alt="" />
           <h3
-            class="mb-7 font-display text-5xl font-bold text-white md:text-7xl"
+            class="mb-7 font-display text-5xl font-bold text-white md:text-6xl"
           >
             Spend Naira with ease across Africa
           </h3>
@@ -22,12 +22,12 @@
             Embrace the efficiency of Hizo for all your currency conversion
             needs.
           </p>
-          <button
-            type="submit"
-            class="flex-shrink-0 rounded-xl border-2 border-transparent bg-green-400 px-4 py-4 font-display font-bold text-white transition-all duration-200 hover:border-white md:px-6 md:py-5"
+          <a
+            href="#waitlistForm"
+            class="inline-block rounded-xl border-2 border-transparent bg-green-400 px-4 py-4 font-display font-bold text-white transition-all duration-200 hover:border-white md:px-6 md:py-5"
           >
             Join our wishlist
-          </button>
+          </a>
         </div>
         <div class="w-full md:w-5/12 relative">
           <img

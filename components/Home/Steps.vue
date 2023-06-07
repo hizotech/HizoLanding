@@ -3,8 +3,8 @@
   <section class="px-5 pb-32 pt-20">
     <div class="mx-auto max-w-[75rem]">
       <div class="md:6/12 mb-14 lg:w-5/12">
-        <h2 class="mb-5 uppercase">How it works</h2>
-        <p class="font-display text-5xl md:text-7xl font-bold">
+        <h2 class="mb-5 uppercase font-bold">How it works</h2>
+        <p class="font-display text-5xl md:text-7xl font-bold tracking-tighter">
           <span class="relative z-2">It only takes</span> <br />
           <span class="relative">
             <img
@@ -18,7 +18,7 @@
       </div>
       <!-- step -->
       <div
-        class="mb-10 flex flex-wrap items-center justify-between gap-9 rounded-3xl bg-white px-5 py-8 md:p-14 lg:p-20"
+        class="mb-10 flex flex-wrap items-center justify-center gap-9 md:gap-12 lg:gap-28 rounded-3xl bg-white px-5 py-8 md:p-14 lg:p-20"
       >
         <div class="w-full md:w-5/12 lg:w-4/12">
           <img
@@ -41,7 +41,7 @@
       <!-- step end -->
       <!-- step -->
       <div
-        class="mb-10 flex flex-wrap items-center justify-between gap-9 rounded-3xl bg-white px-5 py-8 md:flex-row-reverse md:p-14 lg:p-20"
+        class="mb-10 flex flex-wrap items-center justify-center gap-9 md:gap-12 lg:gap-28 rounded-3xl bg-white px-5 py-8 md:flex-row-reverse md:p-14 lg:p-20"
       >
         <div class="w-full md:w-5/12 lg:w-4/12">
           <img
@@ -65,7 +65,7 @@
       <!-- step end -->
       <!-- step -->
       <div
-        class="flex flex-wrap items-center justify-between gap-9 rounded-3xl bg-white px-5 py-8 md:p-14 lg:p-20"
+        class="flex flex-wrap items-center justify-center gap-9 md:gap-12 lg:gap-28 rounded-3xl bg-white px-5 py-8 md:p-14 lg:p-20"
       >
         <div class="w-full md:w-5/12 lg:w-4/12">
           <img

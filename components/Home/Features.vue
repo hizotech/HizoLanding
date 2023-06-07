@@ -48,7 +48,7 @@
         <div
           class="rounded-xl bg-[#4845FF] relative text-white md:p-14 lg:p-20 overflow-hidden"
         >
-          <div class="max-w-lg p-5 pb-[15rem]">
+          <div class="max-w-lg pb-[15rem]">
             <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
               Hizo tags enable users transact for free
             </h3>

@@ -8,35 +8,29 @@ const submitEmail = () => {
   <!-- hero -->
   <section class="mb-20 mt-12 px-5">
     <div
-      class="mx-auto relative overflow-hidden flex max-w-[75rem] flex-wrap rounded-3xl border-4 border-white bg-green-100 px-5 py-8 md:p-14 lg:p-20"
+      class="mx-auto relative overflow-hidden flex items-center justify-center gap-7 md:gap-14 lg:gap-20 max-w-[75rem] flex-wrap md:flex-nowrap rounded-3xl border-4 border-white bg-green-100 px-5 py-8 md:p-14 lg:p-20"
     >
-      <div class="w-full md:w-7/12">
-        <div class="mb-2 md:hidden">
-          <img
-            src="/img/hero.svg"
-            class="w-full"
-            alt="Currency supported images"
-          />
-        </div>
-        <!-- <div
+      <div class="w-full md:w-6/12">
+        <div
           class="mb-4 bg-green-400 inline-flex gap-3 px-5 py-2 rounded-lg text-white text-xs"
         >
           <span>Comming soon</span>
           <span>
             <icon name="noto:fire" size="1rem" />
           </span>
-        </div> -->
+        </div>
         <h1
           class="font-display text-5xl font-bold md:text-7xl tracking-tighter"
         >
           Spend Naira anywhere in Africa
         </h1>
         <p class="mt-10 text-sm">
-          Open RWF, KES, ZAR, GHC and other African Accounts <br />
+          Open <b> RWF, KES, ZAR, GHC</b> and other African Accounts <br />
           for Free & Spend with <b>Hizo app</b>
         </p>
         <form
           @submit.prevent="submitEmail"
+          id="waitlistForm"
           class="mt-10 flex items-stretch gap-3 text-xs md:text-sm max-w-[25rem]"
         >
           <input
@@ -52,11 +46,9 @@ const submitEmail = () => {
           </button>
         </form>
       </div>
-      <img
-        src="/img/hero.svg"
-        class="w-[45rem] absolute right-[-18rem] top-[-3rem] hidden md:inline-block"
-        alt=""
-      />
+      <div class="w-full md:w-5/12">
+        <img src="/img/waitlist_hero.png" class="w-full" alt="" />
+      </div>
     </div>
   </section>
   <!-- hero end -->

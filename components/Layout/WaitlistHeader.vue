@@ -29,13 +29,6 @@
             >Blog</a
           >
         </li>
-        <li>
-          <a
-            href="#"
-            class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
-            >Business</a
-          >
-        </li>
       </ul>
       <div class="flex items-stretch gap-3">
         <a

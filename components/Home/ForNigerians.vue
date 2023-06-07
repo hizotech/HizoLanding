@@ -8,7 +8,7 @@
         <div class="w-full md:w-5/12">
           <img src="" class="mb-4 h-auto w-5" alt="" />
           <h3
-            class="mb-7 font-display text-5xl font-bold text-white md:text-7xl"
+            class="mb-7 font-display text-5xl font-bold text-white md:text-6xl"
           >
             For Nigerians across Africa
           </h3>
@@ -16,12 +16,12 @@
             Seamless funding and withdrawal services available for Nigerians
             throughout Africa.
           </p>
-          <button
-            type="submit"
-            class="flex-shrink-0 rounded-xl border-2 border-transparent bg-white px-4 py-4 font-display font-bold text-green-400 transition-all duration-200 hover:border-green-600 md:px-6 md:py-5"
+          <a
+            href="#waitlistForm"
+            class="inline-block rounded-xl border-2 border-transparent bg-white px-4 py-4 font-display font-bold text-green-400 transition-all duration-200 hover:border-green-600 md:px-6 md:py-5"
           >
             Join our wishlist
-          </button>
+          </a>
         </div>
         <div class="w-full md:w-5/12 relative">
           <img
@@ -31,7 +31,7 @@
           />
           <img
             src="/img/for_nigerians_item_2.svg"
-            class="absolute -right-2 top-52 z-2"
+            class="absolute -right-2 top-20 z-2"
             alt=""
           />
           <img
