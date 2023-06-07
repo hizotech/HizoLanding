@@ -46,7 +46,7 @@
           </div>
         </div>
         <div
-          class="rounded-xl bg-[#4845FF] relative text-white md:p-14 lg:p-20 overflow-hidden"
+          class="rounded-xl bg-[#4845FF] relative text-white p-5 md:p-14 lg:p-20 overflow-hidden"
         >
           <div class="max-w-lg pb-[15rem]">
             <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">

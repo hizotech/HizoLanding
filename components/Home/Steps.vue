@@ -4,17 +4,18 @@
     <div class="mx-auto max-w-[75rem]">
       <div class="md:6/12 mb-14 lg:w-5/12">
         <h2 class="mb-5 uppercase font-bold">How it works</h2>
-        <p class="font-display text-5xl md:text-7xl font-bold tracking-tighter">
-          <span class="relative z-2">It only takes</span> <br />
-          <span class="relative">
+        <div class="font-display text-5xl md:text-7xl font-bold">
+          <span class="relative z-4">It only takes</span>
+          <br />
+          <span class="relative z-1">
             <img
               src="/img/ellipse.svg"
-              class="absolute -top-2 z-1 w-full"
+              class="absolute top-0 z-0 w-11/12"
               alt=""
             />
             <span class="relative z-2">5 mins</span>
           </span>
-        </p>
+        </div>
       </div>
       <!-- step -->
       <div
