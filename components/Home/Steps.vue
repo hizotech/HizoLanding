@@ -109,7 +109,7 @@
           </p>
         </div>
         <div class="w-full md:w-5/12">
-          <img src="/img/verify_account_img.svg" class="w-full" alt="" />
+          <img src="/img/get_transacting.svg" class="w-full" alt="" />
         </div>
       </div>
       <!-- step end -->

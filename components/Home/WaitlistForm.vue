@@ -22,7 +22,7 @@
           <input
             type="text"
             placeholder="Your Email ..."
-            class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white bg-opacity-20 px-1 py-4 text-white placeholder-blue-200 outline-none transition-all duration-200 hover:bg-transparent hover:border-white focus:bg-transparent focus:border-white md:px-6 md:py-5"
+            class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white bg-opacity-20 px-3 py-4 text-white placeholder-blue-200 outline-none transition-all duration-200 hover:bg-transparent hover:border-white focus:bg-transparent focus:border-white md:px-6 md:py-5"
           />
           <button
             type="submit"

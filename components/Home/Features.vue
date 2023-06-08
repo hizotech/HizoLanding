@@ -5,7 +5,7 @@
       <div class="mx-auto mb-14 text-center md:w-9/12">
         <h2 class="mb-5 font-bold uppercase text-pink-500">Features</h2>
         <p class="font-display text-3xl font-bold md:text-4xl">
-          Expand your reach across Africa with a virtual bank account designed
+          Expand your reach across Africa with a funding wallet designed
           specifically for your needs.
         </p>
       </div>

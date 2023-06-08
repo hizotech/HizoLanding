@@ -18,20 +18,20 @@ const submitEmail = () => {
           <span class="relative inline-block">
             <img
               src="/img/ellipse.svg"
-              class="absolute z-0 -top-4 w-8/12"
+              class="absolute z-0 -top-2 w-8/12"
               alt=""
             />
             <span class="relative z-2">Seamless</span></span
           >
           Currency Exchange for Nigerians Abroad!
         </h1>
-        <p class="mt-10 text-sm lg:text-base">
+        <p class="mt-6 text-sm lg:text-base">
           Spend naira on the go while in
           <b> Ghana, South Africa, Kenya, and Rwanda</b>
         </p>
         <form
           @submit.prevent="submitEmail"
-          class="mt-10 flex items-stretch gap-3 text-xs md:text-sm max-w-[25rem]"
+          class="mt-6 flex items-stretch gap-3 text-xs md:text-sm max-w-[25rem]"
         >
           <input
             type="email"
