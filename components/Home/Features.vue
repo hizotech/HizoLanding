@@ -11,7 +11,7 @@
       </div>
       <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
         <div
-          class="rounded-xl bg-[#4845FF] relative text-white p-5 md:p-14 lg:p-20 overflow-hidden"
+          class="rounded-xl bg-[#4845FF] relative text-white p-5 md:p-14 overflow-hidden"
         >
           <div class="max-w-lg pb-[15rem]">
             <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
@@ -19,38 +19,39 @@
             </h3>
             <img
               src="/img/hizo_tags.svg"
-              class="h-[10rem] absolute bottom-10 right-[-5rem] w-auto"
+              class="h-[10rem] absolute bottom-10 right-[-3.5rem] w-auto"
               alt="hizo tags"
             />
           </div>
         </div>
         <div
-          class="rounded-xl bg-white p-5 md:p-14 lg:col-span-2 lg:p-20 relative overflow-hidden"
+          class="rounded-xl bg-white p-5 md:p-14 lg:col-span-2 relative overflow-hidden"
         >
           <img
             src="/img/ellipse.svg"
-            class="hidden lg:inline-block w-[20rem] rotate-[-30deg] absolute -top-32 left-12"
+            class="hidden lg:inline-block w-[20rem] rotate-[-30deg] absolute -top-36 left-12"
             alt=""
           />
           <div class="max-w-lg">
             <div>
               <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
-                Multi-withdrawal Channels
+                Secure and Convenient Transactions
               </h3>
               <p class="text-sm">
-                Withdraw your fund to banks and mobile money in these African
-                counteries supported.
+                Our app guarantees safe and seamless transactions, providing you
+                with peace of mind during your travels. Enjoy the freedom to
+                make instant payments and shop with ease.
               </p>
             </div>
             <img
-              src="/img/multi_withdrawals.png"
-              class="mt-10 max-w-[18rem]"
-              alt="24 customer support"
+              src="/img/secure_transaction.svg"
+              class="mt-10 w-full"
+              alt="Secure transactions"
             />
           </div>
         </div>
         <div
-          class="rounded-xl bg-white p-5 md:p-14 lg:col-span-2 lg:p-20 relative overflow-hidden"
+          class="rounded-xl bg-white p-5 md:p-14 lg:col-span-2 relative overflow-hidden"
         >
           <div class="max-w-lg relative z-3">
             <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
@@ -74,7 +75,7 @@
             alt=""
           />
         </div>
-        <div class="rounded-xl bg-green-500 p-5 text-white md:p-14 lg:p-20">
+        <div class="rounded-xl bg-green-500 p-5 text-white md:p-14">
           <div class="max-w-lg">
             <h3
               class="mb-7 text-white font-display text-3xl font-bold md:text-4xl"
@@ -89,9 +90,9 @@
           </div>
         </div>
         <div
-          class="rounded-xl bg-[#ED368F] relative text-white p-5 md:p-14 lg:p-20 overflow-hidden"
+          class="rounded-xl bg-[#ED368F] relative text-white p-5 md:p-14 overflow-hidden"
         >
-          <div class="max-w-lg pb-[15rem]">
+          <div class="max-w-lg">
             <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
               Competitive Exchange Rates
             </h3>
@@ -101,18 +102,18 @@
               travels whilst keeping costs in check.
             </p>
             <img
-              src="/img/hizo_tags.svg"
-              class="h-[10rem] absolute bottom-10 right-[-5rem] w-auto"
-              alt="hizo tags"
+              src="/img/competitive_rates.svg"
+              class="w-full mt-10"
+              alt="competitive exchange rates"
             />
           </div>
         </div>
         <div
-          class="rounded-xl bg-white p-5 md:p-14 lg:col-span-2 lg:p-20 relative overflow-hidden"
+          class="rounded-xl bg-white p-5 md:p-14 lg:col-span-2 relative overflow-hidden"
         >
           <img
             src="/img/ellipse.svg"
-            class="hidden lg:inline-block w-[20rem] rotate-[-30deg] absolute -top-32 left-12"
+            class="hidden lg:inline-block w-[20rem] rotate-[-30deg] absolute -top-36 left-12"
             alt=""
           />
           <div class="max-w-lg">
