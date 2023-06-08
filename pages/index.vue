@@ -1,5 +1,14 @@
 <script lang="ts" setup>
 import { ref } from "vue";
+useHead({
+  title: "Hizo Finance",
+  meta: [
+    {
+      name: "description",
+      content: "Unlocking Seamless Currency Exchange for Nigerians Abroad!",
+    },
+  ],
+});
 const modal = ref<{
   closeModal(): void;
   openModal(): void;

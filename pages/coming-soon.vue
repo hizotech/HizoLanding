@@ -3,6 +3,15 @@ import { ref } from "vue";
 definePageMeta({
   layout: "waitlist",
 });
+useHead({
+  title: "Hizo Finance",
+  meta: [
+    {
+      name: "description",
+      content: "Unlocking Seamless Currency Exchange for Nigerians Abroad!",
+    },
+  ],
+});
 const modal = ref<{
   closeModal(): void;
   openModal(): void;
