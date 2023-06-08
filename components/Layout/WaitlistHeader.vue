@@ -4,7 +4,9 @@
     class="sticky left-0 top-0 w-full bg-[#F1F9F7] backdrop-blur-lg bg-opacity-50 px-5 py-5 z-20"
   >
     <nav class="mx-auto flex max-w-[75rem] items-center justify-between">
-      <img class="w-20" src="/img/hizo_logo.svg" alt="Hizo finance" />
+      <nuxt-link to="/">
+        <img class="w-20" src="/img/hizo_logo.svg" alt="Hizo finance" />
+      </nuxt-link>
       <ul class="hidden items-center gap-9 text-sm md:flex">
         <li>
           <a
