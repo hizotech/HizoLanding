@@ -18,12 +18,12 @@ const toggleFaqActivity = (index: number) => {
         <h2 class="mb-5 font-bold uppercase">FREQUENTLY ASKED QUESTIONS</h2>
         <p class="font-display text-5xl font-bold md:text-7xl">FAQs</p>
       </div>
-      <div class="flex flex-col gap-8">
+      <div class="flex flex-col gap-5">
         <div
           v-for="(faq, index) in faqs"
           :key="index"
           @click="toggleFaqActivity(index)"
-          class="w-full cursor-pointer rounded-xl border-4 border-transparent bg-white p-5 hover:border-green-200 md:px-14 md:py-10 transition-transform duration-200 ease-out"
+          class="w-full cursor-pointer rounded-xl border-4 border-transparent bg-white overflow-hidden p-5 hover:border-green-200 md:px-14 md:py-10 transition-all duration-200 ease-out"
           tabindex="-1"
         >
           <div class="flex w-full items-center justify-between gap-4">
@@ -31,7 +31,7 @@ const toggleFaqActivity = (index: number) => {
               {{ faq.question }}
             </p>
             <span
-              class="flex h-10 w-10 items-center justify-center rounded-xl bg-gray-100 origin-center transition-transform duration-200 ease-out"
+              class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gray-100 origin-center transition-transform duration-200 ease-out"
               :class="{
                 'rotate-180': faq.active === true,
               }"
