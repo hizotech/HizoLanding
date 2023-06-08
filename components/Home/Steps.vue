@@ -28,15 +28,19 @@
             alt=""
           />
           <h3 class="mb-7 font-display text-3xl font-bold md:text-5xl">
-            Create an account
+            Download the App and Sign up
           </h3>
           <p class="text-sm">
-            Register using your full legal name, establish a secure password,
-            and verify your email using the provided verification code.
+            Download the Hizo app from the App Store or Google Play Store. Once
+            installed, sign up for an account by providing all required details
           </p>
         </div>
         <div class="w-full md:w-5/12">
-          <img src="/img/create_account.svg" class="w-full" alt="" />
+          <img
+            src="/img/download_hizo.svg"
+            class="w-full"
+            alt="Download Hizo"
+          />
         </div>
       </div>
       <!-- step end -->
@@ -54,9 +58,8 @@
             Verify your account
           </h3>
           <p class="text-sm">
-            Provide comprehensive information including your profile details,
-            bank information and complete the necessary identity verification
-            process.
+            Verify your email and phone number to ensure the security of your
+            account. This may involve submitting identification documents.
           </p>
         </div>
         <div class="w-full md:w-5/12">
@@ -66,7 +69,30 @@
       <!-- step end -->
       <!-- step -->
       <div
-        class="flex flex-wrap items-center justify-center gap-9 md:gap-12 lg:gap-28 rounded-3xl bg-white px-5 py-8 md:p-14 lg:p-20"
+        class="mb-10 flex flex-wrap items-center justify-center gap-9 md:gap-12 lg:gap-28 rounded-3xl bg-white px-5 py-8 md:p-14 lg:p-20"
+      >
+        <div class="w-full md:w-5/12 lg:w-4/12">
+          <img
+            src="/img/create_account_icon.svg"
+            class="mb-5 h-auto w-9"
+            alt=""
+          />
+          <h3 class="mb-7 font-display text-3xl font-bold md:text-5xl">
+            Get a Virtual Account and Fund it
+          </h3>
+          <p class="text-sm">
+            Once your account is verified, you will be given a virtual account.
+            Fund the account by linking your Nigerian account to the app.
+          </p>
+        </div>
+        <div class="w-full md:w-5/12">
+          <img src="/img/get_a_virtual_account.svg" class="w-full" alt="" />
+        </div>
+      </div>
+      <!-- step end -->
+      <!-- step -->
+      <div
+        class="flex flex-wrap items-center justify-center gap-9 md:gap-12 lg:gap-28 rounded-3xl bg-white px-5 py-8 md:flex-row-reverse md:p-14 lg:p-20"
       >
         <div class="w-full md:w-5/12 lg:w-4/12">
           <img
@@ -75,15 +101,15 @@
             alt=""
           />
           <h3 class="mb-7 font-display text-3xl font-bold md:text-5xl">
-            Get a funding wallet
+            Get Transacting
           </h3>
           <p class="text-sm">
-            You funding wallet ready!! Start transacting, converting, sending
-            and receiving money from friends and family.
+            To send money from your Hizo account, select the country, channel,
+            bank account, and amount you wish to transfer.
           </p>
         </div>
         <div class="w-full md:w-5/12">
-          <img src="/img/get_a_funding_wallet.svg" class="w-full" alt="" />
+          <img src="/img/verify_account_img.svg" class="w-full" alt="" />
         </div>
       </div>
       <!-- step end -->

@@ -2,7 +2,11 @@
 @font-face {
 font-family: 'YgroSansBeta';
 src: url('../font/YgroSansBeta-Bold.woff2') format('woff2'),
-        url('../font/YgroSansBeta-Bold.woff') format('woff');
+        url('../font/YgroSansBeta-Bold.woff') format('woff'),
+        url('../font/YgroSansBeta-Book.woff') format('woff'),
+        url('../font/YgroSansBeta-Book.woff2') format('woff2'),
+        url('../font/YgroSansBeta-Medium.woff') format('woff'),
+        url('../font/YgroSansBeta-Medium.woff2') format('woff2');
 }
 .font-display{
     letter-spacing: -0.06em

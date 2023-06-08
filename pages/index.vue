@@ -1,8 +1,5 @@
 <script lang="ts" setup>
 import { ref } from "vue";
-definePageMeta({
-  layout: "waitlist",
-});
 const modal = ref<{
   closeModal(): void;
   openModal(): void;
@@ -15,12 +12,14 @@ const confirmSubmission = () => {
 };
 </script>
 <template>
-  <layout-waitlist-header />
-  <main>
-    <app-modal ref="modal">
-      <modals-mail-confirmation></modals-mail-confirmation>
-    </app-modal>
-    <waitlist-hero @submit-email="confirmSubmission" />
-    <layout-waitlist-footer />
-  </main>
+  <app-modal ref="modal">
+    <modals-mail-confirmation></modals-mail-confirmation>
+  </app-modal>
+  <home-hero @submit-email="confirmSubmission"></home-hero>
+  <home-steps></home-steps>
+  <home-instant-currency />
+  <home-features></home-features>
+  <home-for-business />
+  <home-faqs></home-faqs>
+  <home-waitlist-form></home-waitlist-form>
 </template>

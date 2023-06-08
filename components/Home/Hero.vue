@@ -8,32 +8,26 @@ const submitEmail = () => {
   <!-- hero -->
   <section class="mb-20 mt-12 px-5">
     <div
-      class="mx-auto relative overflow-hidden flex max-w-[75rem] flex-wrap rounded-3xl border-4 border-white bg-green-100 px-5 py-8 md:p-14 lg:p-20"
+      class="mx-auto relative overflow-hidden flex justify-center items-center gap-7 md:gap-14 max-w-[75rem] flex-wrap md:flex-nowrap rounded-3xl border-4 border-white bg-green-100 px-5 py-8 md:p-14 lg:p-20"
     >
-      <div class="w-full md:w-7/12">
-        <div class="mb-2 md:hidden">
-          <img
-            src="/img/hero.svg"
-            class="w-full"
-            alt="Currency supported images"
-          />
-        </div>
-        <!-- <div
-          class="mb-4 bg-green-400 inline-flex gap-3 px-5 py-2 rounded-lg text-white text-xs"
-        >
-          <span>Comming soon</span>
-          <span>
-            <icon name="noto:fire" size="1rem" />
-          </span>
-        </div> -->
+      <div class="w-full md:w-6/12">
         <h1
-          class="font-display text-5xl font-bold md:text-7xl tracking-tighter"
+          class="font-display text-3xl md:text-5xl font-bold tracking-tighter"
         >
-          Spend Naira anywhere in Africa
+          Unlocking
+          <span class="relative inline-block">
+            <img
+              src="/img/ellipse.svg"
+              class="absolute z-0 -top-4 w-8/12"
+              alt=""
+            />
+            <span class="relative z-2">Seamless</span></span
+          >
+          Currency Exchange for Nigerians Abroad!
         </h1>
-        <p class="mt-10 text-sm">
-          Open RWF, KES, ZAR, GHC and other African Accounts <br />
-          for Free & Spend with <b>Hizo app</b>
+        <p class="mt-10 text-sm lg:text-base">
+          Spend naira on the go while in
+          <b> Ghana, South Africa, Kenya, and Rwanda</b>
         </p>
         <form
           @submit.prevent="submitEmail"
@@ -52,11 +46,13 @@ const submitEmail = () => {
           </button>
         </form>
       </div>
-      <img
-        src="/img/hero.svg"
-        class="w-[45rem] absolute right-[-18rem] top-[-3rem] hidden md:inline-block"
-        alt=""
-      />
+      <div class="w-full md:w-5/12">
+        <img
+          src="/img/home_hero.png"
+          class="w-full"
+          alt="Unlocking Seamless Currency Exchange for Nigerians Abroad!"
+        />
+      </div>
     </div>
   </section>
   <!-- hero end -->

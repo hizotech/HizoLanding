@@ -41,9 +41,11 @@ const toggleFaqActivity = (index: number) => {
           </div>
           <!-- FAQ description -->
           <transition name="fade">
-            <div class="mt-7 text-sm" v-if="faq.active">
-              {{ faq.answer }}
-            </div>
+            <div
+              class="mt-7 text-sm"
+              v-if="faq.active"
+              v-html="faq.answer"
+            ></div>
           </transition>
           <!-- FAQ description end -->
         </div>
