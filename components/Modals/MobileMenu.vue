@@ -1,0 +1,57 @@
+<script lang="ts" setup>
+const emit = defineEmits(["navigateToPage"]);
+const navigateToPage = (navigate = () => {}) => {
+  emit("navigateToPage");
+  navigate();
+};
+</script>
+<template>
+  <div class="mx-5 my-7">
+    <ul class="flex flex-col gap-4">
+      <nuxt-link custom to="/" v-slot="{ navigate }">
+        <li
+          class="flex w-full justify-between items-center hover p-4 group hover:bg-green-200 rounded-lg"
+          @click.prevent="navigateToPage(navigate)"
+        >
+          <span class="font-bold">Product</span>
+          <span class="group-hover:text-green-500 group-focus:text-green-500">
+            <icon name="mdi:chevron-right" size="1.3rem" />
+          </span>
+        </li>
+      </nuxt-link>
+      <nuxt-link custom to="/" v-slot="{ navigate }">
+        <li
+          class="flex w-full justify-between items-center hover p-4 group hover:bg-green-200 rounded-lg"
+          @click.prevent="navigateToPage(navigate)"
+        >
+          <span class="font-bold">Company</span>
+          <span class="group-hover:text-green-500 group-focus:text-green-500">
+            <icon name="mdi:chevron-right" size="1.3rem" />
+          </span>
+        </li>
+      </nuxt-link>
+      <nuxt-link custom to="/" v-slot="{ navigate }">
+        <li
+          class="flex w-full justify-between items-center hover p-4 group hover:bg-green-200 rounded-lg"
+          @click.prevent="navigateToPage(navigate)"
+        >
+          <span class="font-bold">Blog</span>
+          <span class="group-hover:text-green-500 group-focus:text-green-500">
+            <icon name="mdi:chevron-right" size="1.3rem" />
+          </span>
+        </li>
+      </nuxt-link>
+      <nuxt-link custom to="/" v-slot="{ navigate }">
+        <li
+          class="flex w-full justify-between items-center hover p-4 group hover:bg-green-200 rounded-lg"
+          @click.prevent="navigateToPage(navigate)"
+        >
+          <span class="font-bold">Business</span>
+          <span class="group-hover:text-green-500 group-focus:text-green-500">
+            <icon name="mdi:chevron-right" size="1.3rem" />
+          </span>
+        </li>
+      </nuxt-link>
+    </ul>
+  </div>
+</template>

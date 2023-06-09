@@ -85,6 +85,7 @@ declare global {
   const useCookie: typeof import('../../node_modules/nuxt/dist/app')['useCookie']
   const useCssModule: typeof import('vue')['useCssModule']
   const useCssVars: typeof import('vue')['useCssVars']
+  const useEmailHandler: typeof import('../../composables/useEmailHandler')['useEmailHandler']
   const useError: typeof import('../../node_modules/nuxt/dist/app')['useError']
   const useFaqs: typeof import('../../composables/useFaqs')['useFaqs']
   const useFetch: typeof import('../../node_modules/nuxt/dist/app')['useFetch']
@@ -210,6 +211,7 @@ declare module 'vue' {
     readonly useCookie: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useCookie']>
     readonly useCssModule: UnwrapRef<typeof import('vue')['useCssModule']>
     readonly useCssVars: UnwrapRef<typeof import('vue')['useCssVars']>
+    readonly useEmailHandler: UnwrapRef<typeof import('../../composables/useEmailHandler')['useEmailHandler']>
     readonly useError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useError']>
     readonly useFaqs: UnwrapRef<typeof import('../../composables/useFaqs')['useFaqs']>
     readonly useFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useFetch']>

@@ -30,5 +30,5 @@ const confirmSubmission = () => {
   <home-features></home-features>
   <home-for-business />
   <home-faqs></home-faqs>
-  <home-waitlist-form></home-waitlist-form>
+  <home-waitlist-form @submit-email="confirmSubmission" />
 </template>

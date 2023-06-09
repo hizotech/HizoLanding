@@ -1,4 +1,22 @@
+<script lang="ts" setup>
+const modal = ref<{
+  closeModal(): void;
+  openModal(): void;
+}>({
+  closeModal: () => {},
+  openModal: () => {},
+});
+const openMenu = () => {
+  modal.value.openModal();
+};
+const closeMenu = () => {
+  modal.value.closeModal();
+};
+</script>
 <template>
+  <app-modal ref="modal">
+    <modals-mobile-menu @navigateToPage="closeMenu"></modals-mobile-menu>
+  </app-modal>
   <!-- navbar -->
   <header
     class="sticky left-0 top-0 w-full bg-[#F1F9F7] backdrop-blur-lg bg-opacity-50 px-5 py-5 z-20"
@@ -46,6 +64,7 @@
           >Join our waitlist</a
         >
         <button
+          @click="openMenu"
           class="rounded-lg bg-white px-4 py-3 hover:text-green-600 md:hidden md:px-6 md:py-5"
         >
           <icon name="solar:list-linear" size="1.2rem" />

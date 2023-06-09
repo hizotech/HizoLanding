@@ -1,7 +1,15 @@
 <script lang="ts" setup>
+import { useEmailHandler } from "~/composables/useEmailHandler";
+
 const emit = defineEmits(["submitEmail"]);
+const mailHandler = useEmailHandler();
+const mail = mailHandler.email;
+const mailIsVald = mailHandler.mailIsValid;
+const mailIsSending = mailHandler.mailIsSending;
 const submitEmail = () => {
-  emit("submitEmail");
+  mailHandler.sendMail().then((value) => {
+    emit("submitEmail");
+  });
 };
 </script>
 <template>
@@ -34,17 +42,15 @@ const submitEmail = () => {
           class="mt-10 flex items-stretch gap-3 text-xs md:text-sm max-w-[25rem]"
         >
           <input
-            type="email"
-            required
+            type="text"
+            v-model="mail"
             placeholder="Your Email ..."
             class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white px-3 py-4 outline-none transition-all duration-200 hover:border-green-500 focus:border-green-500 md:px-6 md:py-5"
           />
-          <button
-            type="submit"
-            class="flex-shrink-0 rounded-xl border-2 border-transparent bg-green-400 px-4 py-4 font-display font-bold transition-all duration-200 hover:border-white md:px-6 md:py-5"
-          >
-            Join our waitlist
-          </button>
+          <app-button
+            :disabled="!mailIsVald"
+            :loading="mailIsSending"
+          ></app-button>
         </form>
       </div>
       <div class="w-full md:w-5/12">

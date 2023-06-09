@@ -1,3 +1,17 @@
+<script lang="ts" setup>
+import { useEmailHandler } from "~/composables/useEmailHandler";
+
+const emit = defineEmits(["submitEmail"]);
+const mailHandler = useEmailHandler();
+const mail = mailHandler.email;
+const mailIsVald = mailHandler.mailIsValid;
+const mailIsSending = mailHandler.mailIsSending;
+const submitEmail = () => {
+  mailHandler.sendMail().then((value) => {
+    emit("submitEmail");
+  });
+};
+</script>
 <template>
   <!-- waitlist -->
   <section class="px-5 pb-32" id="waitlistForm">
@@ -17,19 +31,21 @@
           <b>Naira knows no boundaries</b>!
         </h1>
         <form
+          @submit.prevent="submitEmail"
           class="mt-10 flex items-stretch gap-3 text-xs md:text-sm max-w-[30rem]"
         >
           <input
             type="text"
+            v-model="mail"
             placeholder="Your Email ..."
             class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white bg-opacity-20 px-3 py-4 text-white placeholder-blue-200 outline-none transition-all duration-200 hover:bg-transparent hover:border-white focus:bg-transparent focus:border-white md:px-6 md:py-5"
           />
-          <button
-            type="submit"
-            class="flex-shrink-0 rounded-xl border-2 border-transparent bg-white px-4 py-4 font-display font-bold text-[#4845FF] transition-all duration-200 md:px-6 md:py-5"
-          >
-            Join our waitlist
-          </button>
+          <app-button
+            bg-color="bg-white"
+            text-color="text-[#4845FF]"
+            :disabled="!mailIsVald"
+            :loading="mailIsSending"
+          ></app-button>
         </form>
       </div>
     </div>
