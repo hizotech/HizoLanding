@@ -1,4 +1,4 @@
-export const useInputFocusHandler = (oldInputElementId: string, newInputElement:string)=>{
+export const useInputFocusHandler = (oldInputElementId: string = '', newInputElement:string = '')=>{
     const focusableInput = useState(()=>oldInputElementId)
 
     const observerHandler = (entries:IntersectionObserverEntry[], observer: IntersectionObserver) => {
@@ -19,8 +19,14 @@ export const useInputFocusHandler = (oldInputElementId: string, newInputElement:
         const formInput = document.getElementById(focusableInput.value);
         formInput?.focus();
     }
+
+    const focusOnAnyInput=(inputId:string)=>{
+        const formInput = document.getElementById(inputId);
+        formInput?.focus();
+    }
     return {
         observeInput,
-        focusOnInput
+        focusOnInput,
+        focusOnAnyInput
     }
 }

@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const focusHandler = useInputFocusHandler();
+const inputElement = "waitlistFormInput";
+</script>
 <template>
   <!-- For nigerians -->
   <section class="bg-[#4845FF] px-5 py-20">
@@ -16,12 +20,12 @@
             Seamless funding and withdrawal services available for Nigerians
             throughout Africa.
           </p>
-          <a
-            href="#waitlistForm"
-            class="inline-block rounded-xl border-2 border-transparent bg-white px-4 py-4 font-display font-bold text-[#4845FF] transition-all duration-200 hover:border-green-600 md:px-6 md:py-5"
+          <button
+            @click="focusHandler.focusOnAnyInput(inputElement)"
+            class="inline-block rounded-xl border-2 border-transparent bg-white px-4 py-4 font-display font-bold text-[#4845FF] transition-all duration-200 hover:border-blue-200 md:px-6 md:py-5"
           >
             Join our waitlist
-          </a>
+          </button>
         </div>
         <div class="w-full md:w-5/12 relative">
           <!-- <img
