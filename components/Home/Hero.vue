@@ -14,7 +14,7 @@ const submitEmail = () => {
 </script>
 <template>
   <!-- hero -->
-  <section class="mb-20 mt-12 px-5">
+  <section class="mb-20 mt-12 px-5" id="heroForm">
     <div
       class="mx-auto relative overflow-hidden flex justify-center items-center gap-7 md:gap-14 max-w-[75rem] flex-wrap md:flex-nowrap rounded-3xl border-4 border-white bg-green-100 px-5 py-8 md:p-14 lg:p-20"
     >
@@ -43,6 +43,7 @@ const submitEmail = () => {
         >
           <input
             type="text"
+            id="heroFormInput"
             v-model="mail"
             placeholder="Your Email ..."
             class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white px-3 py-4 outline-none transition-all duration-200 hover:border-green-500 focus:border-green-500 md:px-6 md:py-5"

@@ -5,4 +5,5 @@ export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId
 export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerSeoMeta, useServerHeadSafe } from '@unhead/vue';
 export { useEmailHandler } from '../composables/useEmailHandler';
 export { useFaqs } from '../composables/useFaqs';
+export { useInputFocusHandler } from '../composables/useInputFocusHandler';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

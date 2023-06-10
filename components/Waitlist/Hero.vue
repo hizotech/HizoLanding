@@ -38,12 +38,12 @@ const submitEmail = () => {
         </p>
         <form
           @submit.prevent="submitEmail"
-          id="waitlistForm"
           class="mt-10 flex items-stretch gap-3 text-xs md:text-sm max-w-[25rem]"
         >
           <input
             type="text"
             v-model="mail"
+            id="heroFormInput"
             placeholder="Your Email ..."
             class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white px-3 py-4 outline-none transition-all duration-200 hover:border-green-500 focus:border-green-500 md:px-6 md:py-5"
           />

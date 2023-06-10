@@ -12,6 +12,13 @@ const openMenu = () => {
 const closeMenu = () => {
   modal.value.closeModal();
 };
+const inputFocusHandler = useInputFocusHandler(
+  "heroFormInput",
+  "waitlistFormInput"
+);
+onMounted(() => {
+  inputFocusHandler.observeInput();
+});
 </script>
 <template>
   <app-modal ref="modal">
@@ -58,11 +65,12 @@ const closeMenu = () => {
         </li>
       </ul>
       <div class="flex items-stretch gap-3">
-        <a
-          href="#waitlistForm"
+        <button
+          @click="inputFocusHandler.focusOnInput"
           class="inline-block rounded-xl font-display border-2 border-transparent bg-green-400 px-4 py-3 text-sm font-bold text-green-950 transition-all duration-200 ease-in hover:border-white md:px-6 md:py-5"
-          >Join our waitlist</a
         >
+          Join our waitlist
+        </button>
         <button
           @click="openMenu"
           class="rounded-lg bg-white px-4 py-3 hover:text-green-600 md:hidden md:px-6 md:py-5"
