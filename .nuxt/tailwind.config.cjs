@@ -304,6 +304,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -722,6 +723,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -1095,6 +1097,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -1496,6 +1499,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -1827,6 +1831,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -2145,6 +2150,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -2542,6 +2548,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -2907,6 +2914,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -3474,6 +3482,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -4282,6 +4291,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -4651,6 +4661,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -4987,6 +4998,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -5305,6 +5317,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -5854,6 +5867,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -6179,6 +6193,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",
@@ -6497,6 +6512,7 @@ module.exports = {
         "800": "#060679",
         "900": "#02024F"
       },
+      "lblue": "#4845FF",
       "secondary": {
         "50": "#fffbeb",
         "100": "#fef3c7",

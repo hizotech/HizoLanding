@@ -1,18 +1,19 @@
 <script lang="ts" setup>
 import { ref } from "vue";
 definePageMeta({
-  pageTransition: { name: "zoom", mode: "out-in" },
+  pageTransition: { name: "fade", mode: "out-in" },
 });
 useHead({
-  title: "Hizo Finance",
+  title: "About Hizo",
   meta: [
     {
       name: "description",
-      content: "Unlocking Seamless Currency Exchange for Nigerians Abroad!",
+      content: `Hizo is a team of passionate individuals committed to
+      simplifying cross-border transactions and empowering our users with seamless
+      currency exchange solutions.`,
     },
   ],
 });
-const list = useFaqs();
 const modal = ref<{
   closeModal(): void;
   openModal(): void;
@@ -29,12 +30,6 @@ const confirmSubmission = () => {
     <app-modal ref="modal">
       <modals-mail-confirmation></modals-mail-confirmation>
     </app-modal>
-    <home-hero @submit-email="confirmSubmission"></home-hero>
-    <home-steps></home-steps>
-    <home-instant-currency />
-    <home-features></home-features>
-    <home-for-business />
-    <app-faqs :faqs="list" />
     <home-waitlist-form @submit-email="confirmSubmission" />
   </div>
 </template>

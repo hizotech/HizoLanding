@@ -28,6 +28,7 @@ module.exports = {
           800: "#060679",
           900: "#02024F"
         },
+        'lblue': '#4845FF',
         'secondary': colors.amber
       }
     },

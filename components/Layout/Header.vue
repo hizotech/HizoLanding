@@ -6,6 +6,9 @@ const modal = ref<{
   closeModal: () => {},
   openModal: () => {},
 });
+
+const routesWithDoubleForms = ["/", "/hizo-business"];
+const waitlistFormId = "waitlistFormInput";
 const openMenu = () => {
   modal.value.openModal();
 };
@@ -16,6 +19,13 @@ const inputFocusHandler = useInputFocusHandler(
   "heroFormInput",
   "waitlistFormInput"
 );
+
+const focusOnInput = () => {
+  routesWithDoubleForms.includes(useRoute().path)
+    ? inputFocusHandler.focusOnInput()
+    : inputFocusHandler.focusOnAnyInput(waitlistFormId);
+};
+
 onMounted(() => {
   inputFocusHandler.observeInput();
 });
@@ -34,39 +44,33 @@ onMounted(() => {
       </nuxt-link>
       <ul class="hidden items-center gap-9 text-sm md:flex">
         <li>
-          <a
-            href="#"
+          <nuxt-link
+            to="/about"
             class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
           >
-            Products
-          </a>
+            About
+          </nuxt-link>
         </li>
         <li>
-          <a
-            href="#"
+          <nuxt-link
+            to="/"
             class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
           >
-            Company
-          </a>
+            Blog
+          </nuxt-link>
         </li>
         <li>
-          <a
-            href="#"
+          <nuxt-link
+            to="/hizo-business"
             class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
-            >Blog</a
           >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
-            >Business</a
-          >
+            HizoBusiness
+          </nuxt-link>
         </li>
       </ul>
       <div class="flex items-stretch gap-3">
         <button
-          @click="inputFocusHandler.focusOnInput"
+          @click="focusOnInput"
           class="inline-block rounded-xl font-display border-2 border-transparent bg-green-400 px-4 py-3 text-sm font-bold text-green-950 transition-all duration-200 ease-in hover:border-white md:px-6 md:py-5"
         >
           Join our waitlist

@@ -11,9 +11,9 @@
         <div class="lg:col-span-2">
           <img class="w-20 mb-5" src="/img/hizo_logo.svg" alt="Hizo finance" />
           <p class="mb-5">
-            Hizo is a financial product that allows for the conversion of Naira,
-            to various African currencies, facilitating seamless spending in
-            those currencies.
+            Hizo Technology Limited is a financial app revolutionizing
+            cross-border transactions and empowering businesses and individuals
+            to manage their finances across multiple African countries.
           </p>
           <a
             href="mailto:hello@hizo.africa"
@@ -47,22 +47,24 @@
       <div class="border-b py-7">
         <ul class="mb-10 flex list-disc flex-col gap-1">
           <li>
-            Hizo operates in collaboration with licensed transmitters in their
-            respective jurisdictions to provide its products and services.
+            Hizo collaborates with authorized transmitters in different regions
+            to provide its products and services.
           </li>
           <li>
-            The trademarks and brand names mentioned here are the property of
-            their respective owners and the use of these trademarks and brand
-            names does not imply any endorsement or affiliation with Hizo.
+            The trademarks and brand names mentioned belong to their respective
+            owners. Their usage does not imply any endorsement or affiliation
+            with Hizo.
           </li>
           <li>
-            It is important to note that in accordance with federal regulations
-            aimed at combating terrorism financing and money laundering, all
-            financial institutions are required to collect, verify, and record
-            personal information of individuals opening new accounts. Therefore,
-            when you open an account with us, we will request details such as
-            your name, address, date of birth, and may also require a copy of
-            your driver's license for identification purposes.
+            IMPORTANT NOTICE REGARDING ACCOUNT OPENING PROCEDURES: In order to
+            support the government's efforts against terrorism financing and
+            money laundering, federal law mandates that all financial
+            institutions must gather, verify, and record identifying information
+            for individuals opening an Account. This means that when you create
+            an Account, we will request your name, address, date of birth, and
+            other details that enable us to verify your identity. Additionally,
+            we may request a copy of your driver's license for verification
+            purposes.
           </li>
         </ul>
         <div
