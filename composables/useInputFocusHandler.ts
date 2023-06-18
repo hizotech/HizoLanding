@@ -12,7 +12,7 @@ export const useInputFocusHandler = (oldInputElementId: string = '', newInputEle
         const observer = new IntersectionObserver(observerHandler, {
             threshold: 0.5
         })
-        observer.observe(elem)
+        observer.unobserve(elem)
     }
 
     const focusOnInput=()=>{

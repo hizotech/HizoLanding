@@ -15,7 +15,7 @@
         >
           <img
             src="/img/spiral.svg"
-            class="w-full absolute left-0 -bottom-10 z-[1]"
+            class="w-full absolute left-0 bottom-6 sm:-bottom-10 md:bottom-6 lg:-bottom-10 z-[1]"
             alt=" C-to-B Pay by Hizo"
           />
           <div class="max-w-lg relative z-3">
@@ -28,11 +28,13 @@
               Shop with confidence across borders and make instant payments to
               vendors anywhere in Africa with C-to-B Pay by Hizo.
             </p>
-            <img
-              src="/img/c_to_b.png"
-              class="mt-10 max-w-[26rem] relative z-[3]"
-              alt=" C-to-B Pay by Hizo"
-            />
+            <div class="max-w-[26rem]">
+              <img
+                src="/img/c_to_b.png"
+                class="mt-10 w-full relative z-[3]"
+                alt=" C-to-B Pay by Hizo"
+              />
+            </div>
           </div>
         </div>
         <div
@@ -85,11 +87,9 @@
                 for businesses, SMEs, and individuals.
               </p>
             </div>
-            <img
-              src="/img/hizo_lend.png"
-              class="max-w-[30rem]"
-              alt="Hizo lend"
-            />
+            <div class="max-w-[30rem]">
+              <img src="/img/hizo_lend.png" class="w-full" alt="Hizo lend" />
+            </div>
           </div>
         </div>
       </div>

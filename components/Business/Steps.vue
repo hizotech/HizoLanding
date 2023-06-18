@@ -20,7 +20,8 @@
             class="mb-7 font-display text-3xl text-white font-bold md:text-5xl"
           >
             Efficiency, <br />
-            Security, and Growth
+            Security, and <br />
+            Growth
           </h3>
           <p class="text-sm text-green-50">
             Simplify your international payments and optimize currency
@@ -39,7 +40,8 @@
             Driven"
           />
           <h3 class="mb-7 font-display text-3xl font-bold md:text-5xl">
-            Secure and Compliance- <br />
+            Secure and <br />
+            Compliance- <br />
             Driven
           </h3>
           <p class="text-sm">
