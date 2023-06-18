@@ -30,6 +30,8 @@ const confirmSubmission = () => {
     <app-modal ref="modal">
       <modals-mail-confirmation></modals-mail-confirmation>
     </app-modal>
+    <about-hero />
+    <about-mission-vision />
     <home-waitlist-form @submit-email="confirmSubmission" />
   </div>
 </template>

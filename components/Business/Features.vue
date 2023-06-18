@@ -13,25 +13,32 @@
         <div
           class="rounded-xl bg-white p-5 md:p-14 lg:col-span-2 relative overflow-hidden"
         >
+          <img
+            src="/img/spiral.svg"
+            class="w-full absolute left-0 -bottom-10 z-[1]"
+            alt=" C-to-B Pay by Hizo"
+          />
           <div class="max-w-lg relative z-3">
-            <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
+            <h3
+              class="mb-7 font-display text-3xl font-bold md:text-4xl relative z-[3]"
+            >
               C-to-B Pay by Hizo
             </h3>
-            <p class="text-sm">
+            <p class="text-sm relative z-[3]">
               Shop with confidence across borders and make instant payments to
               vendors anywhere in Africa with C-to-B Pay by Hizo.
             </p>
             <img
-              src="/img/24hrs_support.png"
-              class="mt-10 max-w-[16rem]"
-              alt="24 customer support"
+              src="/img/c_to_b.png"
+              class="mt-10 max-w-[26rem] relative z-[3]"
+              alt=" C-to-B Pay by Hizo"
             />
           </div>
         </div>
         <div
-          class="rounded-xl bg-[#ED368F] relative text-white p-5 md:p-14 overflow-hidden"
+          class="rounded-xl bg-[#ED368F] relative text-white overflow-hidden"
         >
-          <div class="max-w-lg">
+          <div class="p-5 md:p-14 md:pb-5">
             <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
               Kolet By Hizo
             </h3>
@@ -39,12 +46,12 @@
               Receive payments from customers instantly, securely, and
               conveniently, through debit cards, bank transfers, and USSD codes.
             </p>
-            <img
-              src="/img/competitive_rates.svg"
-              class="w-full mt-10"
-              alt="competitive exchange rates"
-            />
           </div>
+          <img
+            src="/img/kolet_by_hizo.png"
+            class="w-full mb-4"
+            alt="Kolet By Hizo"
+          />
         </div>
         <div
           class="rounded-xl bg-[#4845FF] relative text-white p-5 md:p-14 overflow-hidden"
@@ -79,9 +86,9 @@
               </p>
             </div>
             <img
-              src="/img/multi_withdrawals.png"
-              class="mt-10 max-w-[18rem]"
-              alt="24 customer support"
+              src="/img/hizo_lend.png"
+              class="max-w-[30rem]"
+              alt="Hizo lend"
             />
           </div>
         </div>
