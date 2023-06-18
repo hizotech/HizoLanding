@@ -57,13 +57,11 @@ const toggleFaqActivity = (index: number) => {
             </span>
           </div>
           <!-- FAQ description -->
-          <transition name="fade">
-            <div
-              class="mt-7 text-sm"
-              v-if="faq.active"
-              v-html="faq.answer"
-            ></div>
-          </transition>
+          <div
+            class="text-sm overflow-hidden transition-all duration-300 ease-out"
+            :class="[faq.active ? 'h-auto mt-7' : 'h-0']"
+            v-html="faq.answer"
+          ></div>
           <!-- FAQ description end -->
         </div>
       </div>
