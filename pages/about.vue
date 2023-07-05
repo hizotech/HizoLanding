@@ -32,6 +32,10 @@ const confirmSubmission = () => {
     </app-modal>
     <about-hero />
     <about-mission-vision />
-    <home-waitlist-form @submit-email="confirmSubmission" />
+    <home-waitlist-form @submit-email="confirmSubmission">
+      <h1 class="font-display font-light text-3xl md:text-5xl text-white">
+        Join Nigerians all over Africa to experience freedom
+      </h1>
+    </home-waitlist-form>
   </div>
 </template>
