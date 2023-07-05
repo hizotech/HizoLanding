@@ -34,6 +34,10 @@ const confirmSubmission = () => {
     <business-steps />
     <business-features />
     <app-faqs :faqs="list" />
-    <home-waitlist-form @submit-email="confirmSubmission" />
+    <home-waitlist-form @submit-email="confirmSubmission" >
+      <h1 class="font-display font-light text-3xl md:text-5xl text-white">
+        Experience the future of cross-border spending with Hizo
+        </h1>
+    </home-waitlist-form>
   </div>
 </template>

@@ -19,15 +19,11 @@ const inputElement = "waitlistFormInput";
           <h3
             class="mb-7 font-display text-5xl font-bold text-white md:text-6xl"
           >
-            Instant Currency Conversion
+            Real Time <br> Rate Update
           </h3>
-          <p class="mb-9 text-sm text-green-50">
-            We have real-time exchange rates with which you can instantly
-            convert your naira to
-            <b>
-              Ghanaian Cedis, Kenyan Shillings, South African Rand, and Rwandan
-              Franc.</b
-            >
+          <p class="mb-9 text-sm text-green-50 w-full md:w-10/12">
+            Get real-time rate values for all available currencies paired with
+            the naira at all time.
           </p>
           <button
             @click="focusHandler.focusOnAnyInput(inputElement)"

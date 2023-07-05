@@ -78,11 +78,11 @@
             alt=""
           />
           <h3 class="mb-7 font-display text-3xl font-bold md:text-5xl">
-            Get a Virtual Account and Fund it
+            Easily Fund Your Wallet
           </h3>
           <p class="text-sm">
-            Once your account is verified, you will be given a virtual account.
-            Fund the account by linking your Nigerian account to the app.
+            Your verified account comes with unique virtual account(s). You can
+            easily fund/top-up your wallet using these account(s).
           </p>
         </div>
         <div class="w-full md:w-5/12">
@@ -104,8 +104,8 @@
             Get Transacting
           </h3>
           <p class="text-sm">
-            To send money from your Hizo account, select the country, channel,
-            bank account, and amount you wish to transfer.
+            To spend from your Hizo wallet, provide destination (receiver)
+            details and enjoy the comfort of seamless transactions with Hizo.
           </p>
         </div>
         <div class="w-full md:w-5/12">

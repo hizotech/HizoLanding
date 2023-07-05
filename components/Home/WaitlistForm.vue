@@ -26,10 +26,12 @@ const submitEmail = () => {
       />
       <img src="/img/form_bg_3.svg" class="absolute -bottom-5 left-0" alt="" />
       <div class="w-full md:w-7/12 relative z-3">
-        <h1 class="font-display font-light text-3xl md:text-5xl text-white">
+        <slot>
+          <h1 class="font-display font-light text-3xl md:text-5xl text-white">
           <b>Download Hizo today </b>and embark on a journey where your
           <b>Naira knows no boundaries</b>!
         </h1>
+        </slot>
         <form
           @submit.prevent="submitEmail"
           class="mt-10 flex items-stretch gap-3 text-xs md:text-sm max-w-[30rem]"

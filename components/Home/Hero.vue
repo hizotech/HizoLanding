@@ -20,9 +20,8 @@ const submitEmail = () => {
     >
       <div class="w-full md:w-6/12">
         <h1
-          class="font-display text-3xl md:text-5xl font-bold tracking-tighter"
+          class="font-display text-3xl md:text-6xl font-bold tracking-tighter"
         >
-          Unlocking
           <span class="relative inline-block">
             <img
               src="/img/ellipse.svg"
@@ -31,11 +30,14 @@ const submitEmail = () => {
             />
             <span class="relative z-2">Seamless</span></span
           >
-          Currency Exchange for Nigerians Abroad!
+          <br />
+          Cross-border <br />
+          Spending <br />
+          Unravelled!
         </h1>
         <p class="mt-6 text-sm lg:text-base">
-          Spend naira on the go while in
-          <b> Ghana, South Africa, Kenya, and Rwanda</b>
+          Why have difficulty in spending your own money when you travel? GET
+          HIZO!
         </p>
         <form
           @submit.prevent="submitEmail"

@@ -17,6 +17,10 @@
             <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
               Hizo tags enable users transact for free
             </h3>
+            <p class="text-sm text-blue-100">
+              Hizo tags enable users send and request money from their Hizo
+              friends!
+            </p>
             <img
               src="/img/hizo_tags.svg"
               class="h-[10rem] absolute bottom-10 right-[-3.5rem] w-auto"
@@ -39,8 +43,8 @@
               </h3>
               <p class="text-sm">
                 Our app guarantees safe and seamless transactions, providing you
-                with peace of mind during your travels. Enjoy the freedom to
-                make instant payments and shop with ease.
+                with an easier and flexible payment means during your travels.
+                Hizo offers you the freedom to make instant payments with ease.
               </p>
             </div>
             <img
@@ -94,12 +98,13 @@
         >
           <div class="max-w-lg">
             <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
-              Competitive Exchange Rates
+              Competitive Exchange <br />
+              Rates
             </h3>
             <p class="text-sm text-pink-100">
-              Send and receive money with minimal transaction fees. We strive to
-              give you a pleasant experience, letting you focus on enjoying your
-              travels whilst keeping costs in check.
+              Cost-effective rates to ensure you get the most value out of your
+              money. It's convenience at the cheapest with quality service at
+              the forefront.
             </p>
             <img
               src="/img/competitive_rates.svg"
@@ -119,11 +124,11 @@
           <div class="max-w-lg">
             <div>
               <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
-                Multi-withdrawal Channels
+                Limitless Spending
               </h3>
               <p class="text-sm">
-                Withdraw your fund to banks and mobile money in these African
-                counteries supported.
+                Multiple spending channels are available for all African
+                countries supported!
               </p>
             </div>
             <img
