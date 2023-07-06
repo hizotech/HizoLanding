@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { useBusinessFaqs } from "../composables/useBusinessFaqs";
 definePageMeta({
-  // layout: "hizo-business",
+  layout: "hizo-business",
   // pageTransition: { name: "fade", mode: "out-in" },
   layoutTransition: { name: "fade", mode: "out-in" },
 });

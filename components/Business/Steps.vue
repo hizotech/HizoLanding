@@ -3,7 +3,7 @@
   <section class="px-5 pb-32 pt-20">
     <div class="mx-auto max-w-[75rem]">
       <div class="md:6/12 mb-14 lg:w-5/12">
-        <div class="font-display text-5xl font-bold">It only takes 5 mins</div>
+        <div class="font-display text-5xl font-bold">Why HizoBusiness</div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-7">
         <!-- step -->

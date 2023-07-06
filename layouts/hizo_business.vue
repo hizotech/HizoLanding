@@ -3,7 +3,7 @@
     <layout-header>
       <template #header-logo>
         <img
-          class="w-[9rem]"
+          class="w-[6rem] md:w-[9rem]"
           src="/img/hizo_business_logo.svg"
           alt="Hizo business"
         />

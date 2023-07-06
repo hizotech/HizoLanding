@@ -4,14 +4,14 @@
       <!-- Mission -->
       <div class="max-w-2xl mb-20">
         <div
-          class="mb-7 bg-green-500 inline-flex gap-3 px-5 py-2 rounded-lg text-white"
+          class="mb-7 bg-green-500 inline-flex gap-3 px-5 py-2 rounded-full text-white"
         >
           <span class="font-display font-bold">Mission</span>
           <span>
             <icon name="noto:fire" size="1rem" />
           </span>
         </div>
-        <p class="mb-7 text-sm md:text-base">
+        <p class="mb-7 text-sm md:text-base text-justify">
           At Hizo, we are on a mission to empower Nigerians traveling to Ghana,
           South Africa, Kenya, and Rwanda by providing seamless currency
           exchange solutions. Our goal is to simplify cross-border spending,
@@ -30,14 +30,14 @@
       <!-- Vision -->
       <div class="max-w-2xl">
         <div
-          class="mb-7 bg-green-500 inline-flex gap-3 px-5 py-2 rounded-lg text-white"
+          class="mb-7 bg-[#FCFF45] inline-flex gap-3 px-5 py-2 rounded-full text-black"
         >
           <span class="font-display font-bold">Vision</span>
           <span>
             <icon name="noto:fire" size="1rem" />
           </span>
         </div>
-        <p class="mb-7 text-sm md:text-base">
+        <p class="mb-7 text-sm md:text-base text-justify">
           Our vision at Hizo is to revolutionize cross-border financial
           transactions for Nigerians, fostering a world where seamless currency
           exchange is the norm. We envision a future where individuals and

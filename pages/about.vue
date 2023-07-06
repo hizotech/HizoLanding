@@ -31,11 +31,18 @@ const confirmSubmission = () => {
       <modals-mail-confirmation></modals-mail-confirmation>
     </app-modal>
     <about-hero />
-    <about-mission-vision />
-    <home-waitlist-form @submit-email="confirmSubmission">
-      <h1 class="font-display font-light text-3xl md:text-5xl text-white">
-        Join Nigerians all over Africa to experience freedom
-      </h1>
-    </home-waitlist-form>
+    <section class="py-32 px-5 flex flex-col gap-14">
+      <about-mission />
+      <about-vision />
+    </section>
+    <!-- <about-mission-vision /> -->
+    <business-features />
+    <div class="pt-32">
+      <home-waitlist-form @submit-email="confirmSubmission">
+        <h1 class="font-display font-light text-3xl md:text-5xl text-white">
+          Join Nigerians all over Africa to experience freedom
+        </h1>
+      </home-waitlist-form>
+    </div>
   </div>
 </template>

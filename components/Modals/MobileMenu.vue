@@ -13,7 +13,7 @@ const navigateToPage = (navigate = () => {}) => {
           class="flex w-full justify-between items-center hover p-4 group hover:bg-green-200 rounded-lg"
           @click.prevent="navigateToPage(navigate)"
         >
-          <span class="font-bold">About</span>
+          <span class="font-bold">Company</span>
           <span class="group-hover:text-green-500 group-focus:text-green-500">
             <icon name="mdi:chevron-right" size="1.3rem" />
           </span>
@@ -41,6 +41,17 @@ const navigateToPage = (navigate = () => {}) => {
           </span>
         </li>
       </nuxt-link>
+      <li>
+        <a
+          href="http://lend.hizo.africa"
+          class="flex w-full justify-between items-center hover p-4 group hover:bg-green-200 rounded-lg"
+        >
+          <span class="font-bold">LendByHizo</span>
+          <span class="group-hover:text-green-500 group-focus:text-green-500">
+            <icon name="mdi:chevron-right" size="1.3rem" />
+          </span>
+        </a>
+      </li>
     </ul>
   </div>
 </template>

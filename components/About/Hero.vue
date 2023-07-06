@@ -1,26 +1,32 @@
 <template>
   <section class="my-20 px-5">
-    <div class="mx-auto max-w-[75rem]">
-      <div class="max-w-2xl">
-        <h1 class="font-display text-5xl md:7xl lg:text-9xl mb-10">
-          We are <br />
-          Hizo
-        </h1>
-        <p class="mb-7 text-sm md:text-base">
-          Hizo is a pioneering fintech company dedicated to transforming the way
-          Nigerians spend their Naira in Ghana, South Africa, Kenya, and Rwanda.
-          We are a team of passionate individuals committed to simplifying
-          cross-border transactions and empowering our users with seamless
-          currency exchange solutions.
-        </p>
-        <p class="text-sm md:text-base">
-          At Hizo, we believe in the power of financial freedom and
-          accessibility. We understand the challenges faced by Nigerians when it
-          comes to navigating local currency exchanges, high fees, and
-          unfavorable exchange rates while traveling or conducting business
-          abroad. That's why we have developed an innovative mobile app that
-          revolutionizes the cross-border spending experience.
-        </p>
+    <div
+      class="mx-auto max-w-[75rem] rounded-3xl bg-gradient-to-br from-green-400 via-green-50 p-1 to-green-400 overflow-hidden"
+    >
+      <div class="bg-white rounded-3xl overflow-hidden">
+        <div
+          class="flex flex-wrap justify-center gap-10 md:gap-5 px-5 pt-14 md:p-14 lg:p-24 relative z-[3] mb-10 md:mb-0"
+        >
+          <div class="w-full md:w-6/12">
+            <h1 class="font-display text-6xl md:text-[6.3rem] mb-7">
+              We are <br />
+              Hizo
+            </h1>
+            <img src="/img/about_icon.svg" class="w-[8rem]" alt="" />
+          </div>
+          <p class="text-sm md:text-base w-full md:w-4/12">
+            Hizo is a pioneering fintech company dedicated to transforming the
+            way Nigerians spend their Naira in Ghana, South Africa, Kenya, and
+            Rwanda. We are a team of passionate individuals committed to
+            simplifying cross-border transactions and empowering our users with
+            seamless currency exchange solutions.
+          </p>
+        </div>
+        <img
+          src="/img/about_hero_img.png"
+          alt="About Hizo"
+          class="relative z-0 md:mt-[-10rem] lg:mt-[-15rem]"
+        />
       </div>
     </div>
   </section>

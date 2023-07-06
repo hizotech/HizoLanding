@@ -28,9 +28,7 @@ const focusOnInput = () => {
 onMounted(() => {
   try {
     inputFocusHandler.observeInput();
-  } catch (error) {
-
-  }
+  } catch (error) {}
 });
 </script>
 <template>
@@ -53,7 +51,7 @@ onMounted(() => {
             to="/about"
             class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
           >
-            About
+            Company
           </nuxt-link>
         </li>
         <li>
@@ -71,6 +69,14 @@ onMounted(() => {
           >
             HizoBusiness
           </nuxt-link>
+        </li>
+        <li>
+          <a
+            href="http://lend.hizo.africa"
+            class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
+          >
+            LendByHizo
+          </a>
         </li>
       </ul>
       <div class="flex items-stretch gap-3">

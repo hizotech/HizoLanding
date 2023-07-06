@@ -1,1 +1,1 @@
-export { default } from "file:///workspaces/HizoLanding/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///Users/nkezesylvester/Documents/Codes/HizoLanding/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
