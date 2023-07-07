@@ -5,10 +5,8 @@
       class="mx-auto max-w-[75rem] rounded-t-3xl bg-white px-5 py-8 pt-14 text-sm text-neutral-400 md:p-14 lg:p-20"
     >
       <!-- layer -->
-      <div
-        class="grid grid-cols-1 gap-11 border-b pb-7 md:grid-cols-2 lg:grid-cols-5"
-      >
-        <div class="lg:col-span-2">
+      <div class="grid grid-cols-2 gap-11 border-b pb-7 lg:grid-cols-5">
+        <div class="col-span-2">
           <img class="w-20 mb-5" src="/img/hizo_logo.svg" alt="Hizo finance" />
           <p class="mb-5">
             Hizo Technology Limited is a financial app revolutionizing
