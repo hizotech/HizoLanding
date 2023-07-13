@@ -12,6 +12,30 @@ export default defineNuxtConfig({
                 name: "theme-color",
                 content: "#052f2e",
               },
+              {
+                property: "og:image",
+                content:"https://www.hizo.africa/img/og_hizo.jpg"
+               } ,
+               {
+                property: "og:url",
+                content:"https://www.hizo.africa"
+               },
+               {
+                property: "og:type",
+                content:"website"
+               } ,
+               {
+                property: "twitter:card",
+                content:"summary_large_image"
+               },
+               {
+                property: "twitter:image",
+                content:"https://www.hizo.africa/img/og_hizo.jpg"
+               } ,
+               {
+                property: "twitter:url",
+                content:"https://www.hizo.africa"
+               },
           ]
         }
       }

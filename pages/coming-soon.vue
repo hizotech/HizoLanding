@@ -10,6 +10,14 @@ useHead({
       name: "description",
       content: "Unlocking Seamless Currency Exchange for Nigerians Abroad!",
     },
+    {
+      property: "og:description",
+      content: `Unlocking Seamless Currency Exchange for Nigerians Abroad!`,
+    },
+    {
+      property: "twitter:description",
+      content: `Unlocking Seamless Currency Exchange for Nigerians Abroad!`,
+    },
   ],
 });
 const modal = ref<{

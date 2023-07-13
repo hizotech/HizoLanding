@@ -13,6 +13,14 @@ useHead({
       name: "description",
       content: `Empower Your Business with Instant Payment Solutions`,
     },
+    {
+      property: "og:description",
+      content: `Empower Your Business with Instant Payment Solutions`,
+    },
+    {
+      property: "twitter:description",
+      content: `Empower Your Business with Instant Payment Solutions`,
+    },
   ],
 });
 const list = useBusinessFaqs();

@@ -12,6 +12,18 @@ useHead({
       simplifying cross-border transactions and empowering our users with seamless
       currency exchange solutions.`,
     },
+    {
+      property: "og:description",
+      content: `Hizo is a team of passionate individuals committed to
+      simplifying cross-border transactions and empowering our users with seamless
+      currency exchange solutions.`,
+    },
+    {
+      property: "twitter:description",
+      content: `Hizo is a team of passionate individuals committed to
+      simplifying cross-border transactions and empowering our users with seamless
+      currency exchange solutions.`,
+    },
   ],
 });
 const modal = ref<{
