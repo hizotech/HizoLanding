@@ -44,7 +44,7 @@
   list-style-type: lower-roman;
 }
 
-.content:deep(li > h3) {
-  @apply inline-block font-bold;
+.content:deep(li) > .heading {
+  @apply inline-block font-bold !important;
 }
 </style>
