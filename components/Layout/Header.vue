@@ -36,10 +36,10 @@ onMounted(() => {
     <modals-mobile-menu @navigateToPage="closeMenu"></modals-mobile-menu>
   </app-modal>
   <!-- navbar -->
-  <header
-    class="sticky left-0 top-0 w-full bg-[#F1F9F7] backdrop-blur-lg bg-opacity-50 px-5 py-5 z-20"
-  >
-    <nav class="mx-auto flex max-w-[75rem] items-center justify-between">
+  <header class="sticky left-0 top-0 w-full px-5 py-2 z-20">
+    <nav
+      class="mx-auto bg-white py-4 px-8 rounded-lg backdrop-blur-lg bg-opacity-70 flex max-w-[1260px] items-center justify-between"
+    >
       <nuxt-link to="/">
         <slot name="header-logo">
           <img class="w-20" src="/img/hizo_logo.svg" alt="Hizo finance" />
@@ -48,24 +48,36 @@ onMounted(() => {
       <ul class="hidden items-center gap-9 text-sm md:flex">
         <li>
           <nuxt-link
-            to="/about"
-            class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
+            to="/"
+            active-class="border-b-4 border-green-500"
+            class="text-green-950 inline-block pb-3 transition-colors duration-200 ease-out hover:text-green-600"
           >
-            Company
+            Home
           </nuxt-link>
         </li>
         <li>
           <nuxt-link
-            to="/"
-            class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
+            to="/about"
+            active-class="border-b-4 border-green-500"
+            class="text-green-950 inline-block pb-3 transition-colors duration-200 ease-out hover:text-green-600"
+          >
+            About
+          </nuxt-link>
+        </li>
+        <li>
+          <a
+            href="http://blog.hizo.africa"
+            active-class="border-b-4 border-green-500"
+            class="text-green-950 inline-block pb-3 transition-colors duration-200 ease-out hover:text-green-600"
           >
             Blog
-          </nuxt-link>
+          </a>
         </li>
         <li>
           <nuxt-link
             to="/hizo-business"
-            class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
+            active-class="border-b-4 border-green-500"
+            class="text-green-950 inline-block pb-3 transition-colors duration-200 ease-out hover:text-green-600"
           >
             HizoBusiness
           </nuxt-link>
@@ -73,7 +85,8 @@ onMounted(() => {
         <li>
           <a
             href="http://lend.hizo.africa"
-            class="text-green-950 transition-colors duration-200 ease-out hover:text-green-600"
+            active-class="border-b-4 border-green-500"
+            class="text-green-950 inline-block pb-3 transition-colors duration-200 ease-out hover:text-green-600"
           >
             LendByHizo
           </a>
@@ -82,10 +95,9 @@ onMounted(() => {
       <div class="flex items-stretch gap-3">
         <slot name="header-button">
           <button
-            @click="focusOnInput"
-            class="inline-block rounded-xl font-display border-2 border-transparent bg-green-400 px-4 py-3 text-sm font-bold text-green-950 transition-all duration-200 ease-in hover:border-white md:px-6 md:py-5"
+            class="inline-block rounded-full font-display border-2 border-transparent bg-green-400 px-4 py-3 text-sm font-bold text-green-950 transition-all duration-200 ease-in hover:border-white md:px-6 md:py-3"
           >
-            Join our waitlist
+            Use Hizo
           </button>
         </slot>
         <button

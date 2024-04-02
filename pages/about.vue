@@ -47,11 +47,10 @@ const confirmSubmission = () => {
       <about-mission />
       <about-vision />
     </section>
-    <!-- <about-mission-vision /> -->
     <business-features />
     <div class="pt-32">
       <home-waitlist-form @submit-email="confirmSubmission">
-        <h1 class="font-display font-light text-3xl md:text-5xl text-white">
+        <h1 class="font-display font-bold text-3xl md:text-5xl text-white">
           Join Nigerians all over Africa to experience freedom
         </h1>
       </home-waitlist-form>

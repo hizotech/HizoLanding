@@ -37,8 +37,13 @@
             <icon name="noto:fire" size="1rem" />
           </span>
         </div>
-        <p class="mb-7 text-sm md:text-base text-justify">
-          Our vision at Hizo is to revolutionize cross-border financial
+        <p class="mb-7 text-sm md:text-base text-justify"></p>
+      </div>
+      <!-- Vision end -->
+    </div>
+  </section>
+
+  <!-- Our vision at Hizo is to revolutionize cross-border financial
           transactions for Nigerians, fostering a world where seamless currency
           exchange is the norm. We envision a future where individuals and
           businesses can effortlessly utilize their Naira in Ghana, South
@@ -50,10 +55,5 @@
           a reality, where individuals can explore new horizons and businesses
           can thrive in the global economy. Together, let's shape the future of
           cross-border spending, where Hizo is synonymous with convenience,
-          trust, and limitless possibilities.
-        </p>
-      </div>
-      <!-- Vision end -->
-    </div>
-  </section>
+          trust, and limitless possibilities. -->
 </template>

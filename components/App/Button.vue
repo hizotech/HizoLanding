@@ -5,14 +5,14 @@ interface AppButtonProp {
   textColor?: string;
   disabled?: boolean;
   loading?: boolean;
-  block?: boolean;
+  width?: string;
 }
 const appButtonProp = withDefaults(defineProps<AppButtonProp>(), {
   bgColor: "bg-green-400",
   textColor: "",
   loading: false,
   disabled: false,
-  block: true,
+  width: "100%",
 });
 
 const buttonIsDisabled = computed(
@@ -30,7 +30,10 @@ const buttonIsLoading = computed(() => appButtonProp.loading);
   <button
     type="submit"
     :disabled="buttonIsDisabled"
-    class="flex-shrink-0 rounded-xl border-2 border-transparent bg-green-400 px-4 py-4 font-display font-bold transition-all duration-200 hover:border-white md:px-6 md:py-5"
+    :style="{
+      width: appButtonProp.width,
+    }"
+    class="rounded-full border-2 inline-flex justify-center items-center border-transparent bg-green-400 px-4 py-3 font-display font-bold transition-all duration-200 hover:border-white"
     :class="[
       bgColor,
       textColor,
@@ -40,7 +43,7 @@ const buttonIsLoading = computed(() => appButtonProp.loading);
     ]"
   >
     <span
-      class="relative z-[2]"
+      class="relative inline-block w-auto z-[2]"
       :class="{
         invisible: buttonIsLoading,
       }"

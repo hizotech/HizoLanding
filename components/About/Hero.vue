@@ -8,11 +8,11 @@
           class="flex flex-wrap justify-center gap-10 md:gap-5 px-5 pt-14 md:p-14 lg:p-24 relative z-[3] mb-10 md:mb-0"
         >
           <div class="w-full md:w-6/12">
-            <h1 class="font-display text-6xl md:text-[6.3rem] mb-7">
+            <h1 class="font-display font-bold text-6xl md:text-[6.3rem] mb-7">
               We are <br />
               Hizo
             </h1>
-            <img src="/img/about_icon.svg" class="w-[8rem]" alt="" />
+            <!-- <img src="/img/about_icon.svg" class="w-[8rem]" alt="" /> -->
           </div>
           <p class="text-sm md:text-base w-full md:w-4/12">
             Hizo is a pioneering fintech company dedicated to transforming the

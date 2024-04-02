@@ -32,8 +32,14 @@ const toggleFaqActivity = (index: number) => {
   <section class="px-5 py-32">
     <div class="mx-auto max-w-[75rem]">
       <div class="mx-auto mb-14 text-center md:w-9/12">
-        <h2 class="mb-5 font-bold uppercase">FREQUENTLY ASKED QUESTIONS</h2>
-        <p class="font-display text-5xl font-bold md:text-7xl">FAQs</p>
+        <h2
+          class="mb-5 font-bold uppercase inline-block px-7 py-3 rounded-full bg-pink-500 text-white"
+        >
+          FAQs
+        </h2>
+        <p class="font-display text-4xl font-bold md:text-6xl">
+          We’ve got the answers
+        </p>
       </div>
       <div class="flex flex-col gap-5">
         <div

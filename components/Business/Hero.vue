@@ -35,24 +35,38 @@ const submitEmail = () => {
         <p class="mt-6 text-sm lg:text-base">
           Send and receive business payments from countries across Africa
         </p>
-        <form
-          @submit.prevent="submitEmail"
-          class="mt-6 flex items-stretch gap-3 text-xs md:text-sm max-w-[34rem]"
+        <div
+          class="mt-6 flex md:flex-row items-center gap-3 text-xs md:text-sm max-w-[25rem]"
         >
-          <input
-            type="text"
-            id="heroFormInput"
-            v-model="mail"
-            placeholder="Your Email ..."
-            class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white px-3 py-4 outline-none transition-all duration-200 hover:border-lblue focus:border-lblue md:px-6 md:py-5"
-          />
-          <app-button
-            :disabled="!mailIsVald"
-            bg-color="bg-lblue"
-            text-color="text-blue-50"
-            :loading="mailIsSending"
-          ></app-button>
-        </form>
+          <a href="">
+            <app-button
+              ><div class="inline-flex items-center gap-x-2">
+                <span class="w-10 block">
+                  <img
+                    src="/img/hero_btn_playstore.svg"
+                    class="w-full"
+                    alt=""
+                  />
+                </span>
+                <span class="text-left"> Download on Playstore </span>
+              </div></app-button
+            >
+          </a>
+          <a href="#">
+            <app-button
+              ><div class="inline-flex items-center gap-x-2">
+                <span class="w-10 block">
+                  <img
+                    src="/img/hero_btn_applestore.svg"
+                    class="w-full"
+                    alt=""
+                  />
+                </span>
+                <span class="text-left">Download on Applestore</span>
+              </div></app-button
+            >
+          </a>
+        </div>
       </div>
     </div>
   </section>

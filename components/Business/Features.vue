@@ -1,6 +1,6 @@
 <template>
   <!-- features -->
-  <section class="bg-gray-50 px-5 py-32">
+  <section class="px-5 py-32">
     <div class="mx-auto max-w-[75rem]">
       <div class="mx-auto mb-14 text-center md:w-9/12">
         <h2 class="mb-5 font-bold uppercase text-pink-500">Features</h2>
@@ -79,7 +79,7 @@
           <div class="max-w-lg">
             <div>
               <h3 class="mb-7 font-display text-3xl font-bold md:text-4xl">
-                HizoLend
+                Glyde by Hizo
               </h3>
               <p class="text-sm">
                 Experience Financial Empowerment with Hizo Lend. Make consistent

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-[#F1F9F7] font-body text-teal-950">
+  <div class="min-h-screen bg-[#F4F4F4] font-body text-teal-950">
     <layout-header></layout-header>
     <main>
       <slot />

@@ -39,10 +39,11 @@ const confirmSubmission = () => {
     </app-modal>
     <home-hero @submit-email="confirmSubmission"></home-hero>
     <home-steps></home-steps>
-    <home-instant-currency />
     <home-features></home-features>
-    <home-for-business />
+    <home-instant-currency />
+    <home-downlaod-hizo></home-downlaod-hizo>
     <app-faqs :faqs="list" />
+    <home-testimonials></home-testimonials>
     <home-waitlist-form @submit-email="confirmSubmission" />
   </div>
 </template>

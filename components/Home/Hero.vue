@@ -16,49 +16,62 @@ const submitEmail = () => {
   <!-- hero -->
   <section class="mb-20 mt-12 px-5" id="heroForm">
     <div
-      class="mx-auto relative overflow-hidden flex justify-center items-center gap-7 md:gap-14 max-w-[75rem] flex-wrap md:flex-nowrap rounded-3xl border-4 border-white bg-green-100 px-5 py-8 md:p-14 lg:p-20"
+      class="mx-auto relative overflow-hidden flex justify-center items-center gap-7 md:gap-24 max-w-[75rem] flex-wrap md:flex-nowrap px-0 py-8"
     >
-      <div class="w-full md:w-6/12">
+      <div class="w-full md:w-4/12">
         <h1
-          class="font-display text-3xl md:text-6xl font-bold tracking-tighter"
+          class="font-display text-4xl md:text-6xl font-bold tracking-tighter"
         >
-          <span class="relative inline-block">
-            <img
-              src="/img/ellipse.svg"
-              class="absolute z-0 -top-2 w-8/12"
-              alt=""
-            />
-            <span class="relative z-2">Seamless</span></span
-          >
-          <br />
-          Cross-border <br />
-          Spending <br />
-          Unravelled!
+          Experience the future of Cross-Border Spending
         </h1>
         <p class="mt-6 text-sm lg:text-base">
           Why have difficulty in spending your own money when you travel? GET
           HIZO!
         </p>
-        <form
-          @submit.prevent="submitEmail"
-          class="mt-6 flex items-stretch gap-3 text-xs md:text-sm max-w-[25rem]"
+        <div
+          class="mt-6 flex md:flex-row items-center gap-3 text-xs md:text-sm max-w-[25rem]"
         >
-          <input
-            type="text"
-            id="heroFormInput"
-            v-model="mail"
-            placeholder="Your Email ..."
-            class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white px-3 py-4 outline-none transition-all duration-200 hover:border-green-500 focus:border-green-500 md:px-6 md:py-5"
-          />
-          <app-button
-            :disabled="!mailIsVald"
-            :loading="mailIsSending"
-          ></app-button>
-        </form>
+          <a href="">
+            <app-button
+              ><div class="inline-flex items-center gap-x-2">
+                <span class="w-10 block">
+                  <img
+                    src="/img/hero_btn_playstore.svg"
+                    class="w-full"
+                    alt=""
+                  />
+                </span>
+                <span class="text-left"> Download on Playstore </span>
+              </div></app-button
+            >
+          </a>
+          <a href="#">
+            <app-button
+              ><div class="inline-flex items-center gap-x-2">
+                <span class="w-10 block">
+                  <img
+                    src="/img/hero_btn_applestore.svg"
+                    class="w-full"
+                    alt=""
+                  />
+                </span>
+                <span class="text-left">Download on Applestore</span>
+              </div></app-button
+            >
+          </a>
+        </div>
+        <div class="flex items-center gap-3 text-xs text-[#A0A0A0] mt-5">
+          <div class="flex items-center gap-3">
+            <img src="/img/cbn_logo.png" class="w-8" alt="cbn" />
+            <span class="">Fully licensed by CBN</span>
+          </div>
+          <span class="inline-block border-l h-4"></span>
+          <span> Deposits insured by <b>NDIC</b> </span>
+        </div>
       </div>
-      <div class="w-full md:w-5/12">
+      <div class="w-full md:w-6/12">
         <img
-          src="/img/home_hero.png"
+          src="/img/home_hero_img.png"
           class="w-full"
           alt="Unlocking Seamless Currency Exchange for Nigerians Abroad!"
         />

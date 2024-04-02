@@ -27,29 +27,45 @@ const submitEmail = () => {
       <img src="/img/form_bg_3.svg" class="absolute -bottom-5 left-0" alt="" />
       <div class="w-full md:w-7/12 relative z-3">
         <slot>
-          <h1 class="font-display font-light text-3xl md:text-5xl text-white">
-          <b>Download Hizo today </b>and embark on a journey where your
-          <b>Naira knows no boundaries</b>!
-        </h1>
+          <h1
+            class="font-display font-light text-3xl md:text-[2.8rem] md:leading-[3.1rem] text-white"
+          >
+            <b class="font-bold">Download Hizo today </b>and embark on a journey
+            where your <b class="font-bold">Naira knows no boundaries</b>!
+          </h1>
         </slot>
-        <form
-          @submit.prevent="submitEmail"
-          class="mt-10 flex items-stretch gap-3 text-xs md:text-sm max-w-[30rem]"
+        <div
+          class="mt-10 flex items-stretch gap-3 text-xs md:text-sm max-w-[25rem]"
         >
-          <input
-            type="text"
-            id="waitlistFormInput"
-            v-model="mail"
-            placeholder="Your Email ..."
-            class="w-full min-w-[2rem] rounded-xl border-2 border-transparent bg-white bg-opacity-20 px-3 py-4 text-white placeholder-blue-200 outline-none transition-all duration-200 hover:bg-transparent hover:border-white focus:bg-transparent focus:border-white md:px-6 md:py-5"
-          />
-          <app-button
-            bg-color="bg-white"
-            text-color="text-[#4845FF]"
-            :disabled="!mailIsVald"
-            :loading="mailIsSending"
-          ></app-button>
-        </form>
+          <div
+            class="mt-6 flex md:flex-row items-center gap-3 text-xs md:text-sm"
+          >
+            <app-button
+              ><div class="inline-flex items-center gap-x-2">
+                <span class="w-10 block">
+                  <img
+                    src="/img/hero_btn_playstore.svg"
+                    class="w-full"
+                    alt=""
+                  />
+                </span>
+                <span class="text-left"> Download on Playstore </span>
+              </div></app-button
+            >
+            <app-button
+              ><div class="inline-flex items-center gap-x-2">
+                <span class="w-10 block">
+                  <img
+                    src="/img/hero_btn_applestore.svg"
+                    class="w-full"
+                    alt=""
+                  />
+                </span>
+                <span class="text-left">Download on Applestore</span>
+              </div></app-button
+            >
+          </div>
+        </div>
       </div>
     </div>
   </section>
