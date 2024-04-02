@@ -2,7 +2,7 @@
 <template>
   <div class="flex gap-x-8 gap-y-8 flex-col md:flex-row">
     <aside
-      class="w-full md:w-[10rem] flex-shrink-0 sticky md:self-start top-[5.5rem] md:top-[6rem] bg-[#f0faf7]"
+      class="w-full md:w-[10rem] flex-shrink-0 sticky md:self-start top-[5.5rem] md:top-[6rem]"
     >
       <ul class="flex flex-row md:flex-col w-full overflow-x-auto">
         <li class="inline-block md:block">
