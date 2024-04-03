@@ -102,12 +102,12 @@ onMounted(() => {
       </ul>
       <div class="flex items-stretch gap-3">
         <slot name="header-button">
-          <button
-            @click="visitStore"
+          <nuxt-link
+            to="/download"
             class="inline-block rounded-full font-display border-2 border-transparent bg-green-400 px-4 py-3 text-sm font-bold text-green-950 transition-all duration-200 ease-in hover:border-white md:px-6 md:py-3"
           >
             Use Hizo
-          </button>
+          </nuxt-link>
         </slot>
         <button
           @click="openMenu"
