@@ -71,7 +71,7 @@
             />
             <img
               class="w-[80%] left-[50%] absolute z-[1] translate-x-[-50%] bottom-0"
-              src="/img/limited_spending_human.png"
+              src="/img/limited_spending_human.webp"
               alt=""
             />
           </div>
@@ -96,7 +96,7 @@
             />
           </div>
           <img
-            src="/img/customer_support_human.png"
+            src="/img/customer_support_human.webp"
             class="absolute bottom-0 w-full left-0"
             alt="customer support"
           />
@@ -178,7 +178,7 @@
             </div>
           </div>
           <img
-            src="/img/secure_transactions_human.png"
+            src="/img/secure_transactions_human.webp"
             class="absolute bottom-0 w-full left-0"
             alt="customer support"
           />

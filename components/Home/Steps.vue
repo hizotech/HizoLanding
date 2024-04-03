@@ -68,7 +68,7 @@
           </div>
           <div class="w-full md:w-5/12">
             <img
-              src="/img/verify_your_acc.png"
+              src="/img/verify_your_acc.webp"
               class="w-full"
               alt="verify your account"
             />
@@ -97,7 +97,7 @@
           </div>
           <div class="w-full md:w-5/12">
             <img
-              src="/img/easily_fund_your_wallet.png"
+              src="/img/easily_fund_your_wallet.webp"
               class="w-full"
               alt="fund your account"
             />
@@ -127,7 +127,7 @@
           </div>
           <div class="w-full md:w-5/12">
             <img
-              src="/img/get_transacting.png"
+              src="/img/get_transacting.webp"
               class="w-full"
               alt="get transacting"
             />

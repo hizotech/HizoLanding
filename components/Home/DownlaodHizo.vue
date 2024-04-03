@@ -70,7 +70,7 @@
         class="rounded-3xl rounded-t-none md:rounded-l-none md:rounded-r-3xl w-full md:w-[490px] flex-shrink-0 overflow-hidden"
       >
         <img
-          src="/img/download_img.png"
+          src="/img/download_img.webp"
           class="w-full h-auto md:h-full object-cover object-center"
           alt=""
         />

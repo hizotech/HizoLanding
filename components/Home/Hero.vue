@@ -71,7 +71,7 @@ const submitEmail = () => {
       </div>
       <div class="w-full md:w-6/12">
         <img
-          src="/img/home_hero_img.png"
+          src="/img/home_hero_img.webp"
           class="w-full"
           alt="Unlocking Seamless Currency Exchange for Nigerians Abroad!"
         />
