@@ -108,13 +108,15 @@
       >
         <p>Hizo Technology limited 2023. All rights reserved</p>
         <div class="item-center inline-flex gap-3">
-          <a href="#">
+          <a
+            href="https://www.facebook.com/share/zxPegQFGWqiXLuQD/?mibextid=qi2Omg"
+          >
             <icon name="logos:facebook" size="1.3rem" />
           </a>
-          <a href="#">
+          <a href="https://x.com/HizoHq?t=Y2FIADEejBaI41_wyVlCCA&s=09">
             <icon name="logos:twitter" size="1.3rem" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/hizo_hq?igsh=MTltdjVjdnd0OWNpMw==">
             <icon name="logos:instagram-icon" size="1.3rem" />
           </a>
         </div>
