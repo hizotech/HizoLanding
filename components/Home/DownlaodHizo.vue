@@ -33,7 +33,9 @@
           <div
             class="mt-6 flex md:flex-row items-center gap-3 text-xs md:text-sm max-w-[25rem] relative z-[2]"
           >
-            <a href="#">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.hizo.hizo"
+            >
               <app-button bg-color="bg-teal-900" text-color="text-white"
                 ><div class="inline-flex items-center gap-x-2">
                   <span class="w-8 block flex-shrink-0">
@@ -47,7 +49,7 @@
                 </div></app-button
               >
             </a>
-            <a href="#">
+            <a href="https://apps.apple.com/ng/app/hizo/id6477319387">
               <app-button bg-color="bg-teal-900" text-color="text-white"
                 ><div class="inline-flex items-center gap-x-2">
                   <span class="w-8 block flex-shrink-0">

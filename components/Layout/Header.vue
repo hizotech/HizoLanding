@@ -25,6 +25,14 @@ const focusOnInput = () => {
     ? inputFocusHandler.focusOnInput()
     : inputFocusHandler.focusOnAnyInput(waitlistFormId);
 };
+
+const visitStore = () => {
+  const isAndroid = /android/i.test(navigator.userAgent);
+  window.location.href = isAndroid
+    ? `https://play.google.com/store/apps/details?id=com.hizo.hizo`
+    : `https://apps.apple.com/ng/app/hizo/id6477319387`;
+};
+
 onMounted(() => {
   try {
     inputFocusHandler.observeInput();
@@ -95,6 +103,7 @@ onMounted(() => {
       <div class="flex items-stretch gap-3">
         <slot name="header-button">
           <button
+            @click="visitStore"
             class="inline-block rounded-full font-display border-2 border-transparent bg-green-400 px-4 py-3 text-sm font-bold text-green-950 transition-all duration-200 ease-in hover:border-white md:px-6 md:py-3"
           >
             Use Hizo
