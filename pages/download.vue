@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+definePageMeta({
+  layout: "download",
+});
+
 const visitStore = () => {
   const isAndroid = /android/i.test(navigator.userAgent);
   window.location.href = isAndroid
@@ -6,7 +10,7 @@ const visitStore = () => {
     : `https://apps.apple.com/ng/app/hizo/id6477319387`;
 };
 
-onBeforeMount(() => {
+onMounted(() => {
   visitStore();
 });
 </script>
