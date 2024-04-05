@@ -881,7 +881,7 @@ const renderer$1 = /*#__PURE__*/Object.freeze({
       default: renderer
 });
 
-const _virtual__headStatic = {"headTags":"<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"theme-color\" content=\"#052f2e\">\n<meta property=\"og:image\" content=\"https://www.hizo.africa/img/og_hizo.jpg\">\n<meta property=\"og:url\" content=\"https://www.hizo.africa\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"twitter:card\" content=\"summary_large_image\">\n<meta property=\"twitter:image\" content=\"https://www.hizo.africa/img/og_hizo.jpg\">\n<meta property=\"twitter:url\" content=\"https://www.hizo.africa\">","bodyTags":"","bodyTagsOpen":"","htmlAttrs":"","bodyAttrs":""};
+const _virtual__headStatic = {"headTags":"<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"theme-color\" content=\"#052f2e\">\n<meta property=\"og:image\" content=\"https://www.hizo.africa/img/og_hizo.jpg\">\n<meta property=\"og:url\" content=\"https://www.hizo.africa\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"twitter:card\" content=\"summary_large_image\">\n<meta property=\"twitter:image\" content=\"https://www.hizo.africa/img/og_hizo.jpg\">\n<meta property=\"twitter:url\" content=\"https://www.hizo.africa\">\n<script src=\"/js/pixel.js\" id=\"pixel\"></script>","bodyTags":"","bodyTagsOpen":"","htmlAttrs":"","bodyAttrs":""};
 
 const _virtual__headStatic$1 = /*#__PURE__*/Object.freeze({
       __proto__: null,
