@@ -24,17 +24,17 @@
           </div>
           <p class="mb-7 text-sm md:text-base text-justify relative z-[3]">
             At Hizo, we are on a mission to empower Nigerians traveling to
-            Ghana, South Africa, Kenya, and Rwanda by providing seamless
-            currency exchange solutions. Our goal is to simplify cross-border
-            spending, enhance financial freedom, and prioritize security and
+            African countries, by providing seamless currency exchange
+            solutions. Our goal is to simplify spending across different
+            regions, enhance financial freedom, and prioritize security and
             trust. With Hizo, we strive to deliver an exceptional user
             experience, fostering financial inclusion and creating a world where
             your Naira knows no boundaries. Join us on this transformative
-            journey as we unlock a new era of cross-border financial
-            empowerment. Experience the convenience and reliability of Hizo,
-            where your spending power is maximized, and your transactions are
-            secure. Travel with confidence, explore without limitations, and
-            embrace the freedom Hizo brings to your cross-border adventures
+            journey as we unlock a new era of financial empowerment. Experience
+            the convenience and reliability of Hizo, where your spending power
+            is maximized, and your transactions are secure. Travel with
+            confidence, explore without limitations, and embrace the freedom
+            Hizo brings to your adventures.
           </p>
         </div>
       </div>

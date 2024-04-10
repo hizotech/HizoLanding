@@ -25,8 +25,8 @@
               C-to-B Pay by Hizo
             </h3>
             <p class="text-sm relative z-[3]">
-              Shop with confidence across borders and make instant payments to
-              vendors anywhere in Africa with C-to-B Pay by Hizo.
+              Shop confidently across regions and make instant payments to
+              vendors anywhere in Africa with C-to-B Pay by Hizo
             </p>
             <div class="max-w-[26rem]">
               <img

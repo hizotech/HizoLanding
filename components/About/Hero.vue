@@ -16,10 +16,10 @@
           </div>
           <p class="text-sm md:text-base w-full md:w-4/12">
             Hizo is a pioneering fintech company dedicated to transforming the
-            way Nigerians spend their Naira in Ghana, South Africa, Kenya, and
-            Rwanda. We are a team of passionate individuals committed to
-            simplifying cross-border transactions and empowering our users with
-            seamless currency exchange solutions.
+            way Nigerians spend their Naira in other African countries. We are a
+            team of passionate individuals committed to simplifying transactions
+            across different regions and empowering our users with seamless
+            currency exchange solutions.
           </p>
         </div>
         <img

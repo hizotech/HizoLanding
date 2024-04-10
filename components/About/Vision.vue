@@ -20,20 +20,18 @@
             </span>
           </div>
           <p class="mb-7 text-sm md:text-base text-justify relative z-[3]">
-            Our vision at Hizo is to revolutionize cross-border financial
-            transactions for Nigerians, fostering a world where seamless
-            currency exchange is the norm. We envision a future where
-            individuals and businesses can effortlessly utilize their Naira in
-            Ghana, South Africa, Kenya, and Rwanda, without the barriers of
-            traditional exchange methods. With a relentless commitment to
-            innovation, security, and user-centric design, we aim to be the
-            leading platform that empowers Nigerians to embrace global
-            opportunities and financial freedom. We envision a borderless
+            Our vision at Hizo is to revolutionize financial transactions for
+            Nigerians, fostering a world where seamless currency exchange is the
+            norm. We envision a future where individuals and businesses can
+            effortlessly utilize their Naira in Ghana, South Africa, Kenya, and
+            Rwanda, without the barriers of traditional exchange methods. With a
+            relentless commitment to innovation, security, and user-centric
+            design, we aim to be the leading platform that empowers Nigerians to
+            embrace global opportunities and financial freedom. We envision a
             society where financial inclusion is a reality, where individuals
             can explore new horizons and businesses can thrive in the global
-            economy. Together, let's shape the future of cross-border spending,
-            where Hizo is synonymous with convenience, trust, and limitless
-            possibilities.
+            economy. Together, let's shape the future of spending, where Hizo is
+            synonymous with convenience, trust, and limitless possibilities.
           </p>
         </div>
       </div>
