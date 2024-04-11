@@ -22,7 +22,7 @@ const submitEmail = () => {
         <h1
           class="font-display text-4xl md:text-6xl font-bold tracking-tighter"
         >
-          Experience the future of Cross-Border Spending
+          Unlock the full potential of your Naira
         </h1>
         <p class="mt-6 text-sm lg:text-base">
           Why have difficulty in spending your own money when you travel? GET

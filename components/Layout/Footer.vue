@@ -9,9 +9,9 @@
         <div class="col-span-2">
           <img class="w-20 mb-5" src="/img/hizo_logo.svg" alt="Hizo finance" />
           <p class="mb-5">
-            Hizo Technology Limited is a financial app revolutionizing
-            cross-border transactions and empowering businesses and individuals
-            to manage their finances across multiple African countries.
+            Hizo Technology Limited is a financial app revolutionizing financial
+            transactions and empowering businesses and individuals to manage
+            their finances across multiple African countries.
           </p>
           <a
             href="mailto:hello@hizo.africa"
