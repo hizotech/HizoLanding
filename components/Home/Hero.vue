@@ -60,14 +60,14 @@ const submitEmail = () => {
             >
           </a>
         </div>
-        <div class="flex items-center gap-3 text-xs text-[#A0A0A0] mt-5">
+        <!-- <div class="flex items-center gap-3 text-xs text-[#A0A0A0] mt-5">
           <div class="flex items-center gap-3">
             <img src="/img/cbn_logo.png" class="w-8" alt="cbn" />
             <span class="">Fully licensed by CBN</span>
           </div>
           <span class="inline-block border-l h-4"></span>
           <span> Deposits insured by <b>NDIC</b> </span>
-        </div>
+        </div> -->
       </div>
       <div class="w-full md:w-6/12">
         <img
