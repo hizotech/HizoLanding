@@ -23,24 +23,6 @@
           </p>
         </div>
 
-        <div class="flex flex-col md:flex-row justify-between gap-6">
-          <!-- <div class="flex flex-col justify-between gap-8 md:flex-row md:items-center">
-            <div class="text-green-950 flex items-center gap-5">
-              <span>Supported in:</span>
-              <div class="item-center inline-flex gap-3">
-                <icon name="emojione-v1:flag-for-kenya" size="1.3rem" />
-                <icon name="emojione-v1:flag-for-nigeria" size="1.3rem" />
-                <icon name="emojione-v1:flag-for-ghana" size="1.3rem" />
-                <icon name="emojione-v1:flag-for-rwanda" size="1.3rem" />
-                <icon name="emojione-v1:flag-for-south-africa" size="1.3rem" />
-              </div>
-            </div> 
-
-          </div> -->
-
-
-        </div>
-
 
       </div>
       <!-- layer end -->
@@ -66,7 +48,7 @@
       </div> -->
 
       <!-- layer end -->
-      <div class="flex flex-col justify-between md:flex-row py-4">
+      <div class="flex flex-col justify-between md:flex-row py-2">
         <div class="w-[50%]">
           <h1>Hizo Technology limited 2023. All rights reserved</h1>
         </div>
