@@ -39,9 +39,9 @@ onMounted(() => {
   </app-modal>
   <!-- navbar -->
   <header
-    class="sticky left-0 top-0 w-full bg-[#F1F9F7] backdrop-blur-lg bg-opacity-50 px-5 py-5 z-20"
+    class="sticky left-0 top-0 w-full px-5 py-2 z-20"
   >
-    <nav class="mx-auto flex max-w-[75rem] items-center justify-between">
+    <nav class="mx-auto bg-white py-4 px-8 rounded-lg backdrop-blur-lg bg-opacity-70 flex max-w-[1260px] items-center justify-between">
       <nuxt-link to="/">
         <slot name="header-logo">
           <img
@@ -68,14 +68,7 @@ onMounted(() => {
             Blog
           </a>
         </li>
-        <li>
-          <a
-            href="http://hizo.africa/hizo-business"
-            class="text-green-950 transition-colors duration-200 ease-out hover:text-pink-600"
-          >
-            HizoBusiness
-          </a>
-        </li>
+       
         <li>
           <a
             href="http://lend.hizo.africa"

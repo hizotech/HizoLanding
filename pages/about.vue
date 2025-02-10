@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { ref } from "vue";
+layout: "default";
 definePageMeta({
   pageTransition: { name: "fade", mode: "out-in" },
 });
@@ -43,12 +44,12 @@ const confirmSubmission = () => {
       <modals-mail-confirmation></modals-mail-confirmation>
     </app-modal>
     <about-hero />
-    <section class="py-32 px-5 flex flex-col gap-14">
+    <section class="py-14 px-5 flex flex-col gap-14">
       <about-mission />
       <about-vision />
     </section>
     <business-features />
-    <div class="pt-32">
+    <div class="pt-14">
       <home-waitlist-form @submit-email="confirmSubmission">
         <h1 class="font-display font-bold text-3xl md:text-5xl text-white">
           Join Nigerians all over Africa to experience freedom

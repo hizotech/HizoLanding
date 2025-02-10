@@ -81,15 +81,7 @@ onMounted(() => {
             Blog
           </a>
         </li>
-        <li>
-          <nuxt-link
-            to="/hizo-business"
-            active-class="border-b-4 border-green-500"
-            class="text-green-950 inline-block pb-3 transition-colors duration-200 ease-out hover:text-green-600"
-          >
-            HizoBusiness
-          </nuxt-link>
-        </li>
+        
         <li>
           <a
             href="http://lend.hizo.africa"

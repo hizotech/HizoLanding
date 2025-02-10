@@ -1,7 +1,8 @@
 <script lang="ts" setup>
 import { ref } from "vue";
 definePageMeta({
-  layout: "waitlist",
+  layout:"default",
+  pageTransition: { name: "zoom", mode: "out-in" },
 });
 useHead({
   title: "Hizo Finance",

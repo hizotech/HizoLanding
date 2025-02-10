@@ -14,7 +14,7 @@ const submitEmail = () => {
 </script>
 <template>
   <!-- waitlist -->
-  <section class="px-5 pb-32" id="waitlistForm">
+  <section class="px-5 pb-14" id="waitlistForm">
     <div
       class="mx-auto flex max-w-[75rem] flex-wrap rounded-3xl bg-[#4845FF] px-5 py-14 md:p-14 lg:p-20 relative overflow-hidden"
     >

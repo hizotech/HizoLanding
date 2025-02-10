@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/nkezesylvester/Documents/Codes/HizoLanding/node_modules/nuxt/dist/app/entry.js": {
+  "C:/Users/HP/Desktop/HizoLanding/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/Users/nkezesylvester/Documents/Codes/HizoLanding/node_modules/nuxt/dist/app/entry.js"
+    "file": "C:/Users/HP/Desktop/HizoLanding/node_modules/nuxt/dist/app/entry.js"
   }
 }
