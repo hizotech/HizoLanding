@@ -53,9 +53,10 @@
           <a href="https://www.instagram.com/hizo_hq?igsh=MTltdjVjdnd0OWNpMw==">
             <icon name="logos:instagram-icon" size="1.3rem" />
           </a>
-          <a href="support@hizo.africa">
+          <a href="mailto:support@hizo.africa">
             <icon name="carbon-email" size="1.7rem" />
           </a>
+
         </div>
       </div>
 
