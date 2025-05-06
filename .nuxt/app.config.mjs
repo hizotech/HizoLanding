@@ -1,5 +1,5 @@
 
-import { defuFn } from 'C:/Users/HP/Desktop/HizoLanding/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'C:/Users/HP/Desktop/glyde/HizoLanding/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

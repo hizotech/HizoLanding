@@ -9,9 +9,9 @@
             <img class="w-20 " src="/img/hizo_logo.svg" alt="Hizo finance" />
           </div>
           <div class=" flex  flex-col md:flex-row">
-            <nuxt-link to="/privacy-policy" class="hover:text-green-400 mr-4">Privacy policy</nuxt-link>
-            <nuxt-link to="/terms-conditions" class="hover:text-green-400 mr-6">Terms and conditions</nuxt-link>
-            <nuxt-link to="/kyc-policy" class="hover:text-green-400">KYC/AML/CFT Policy</nuxt-link>
+            <nuxt-link to="/privacy-policy" class="hover:text-green-400 mr-4 mb-2 md:mb-0">Privacy policy</nuxt-link>
+            <nuxt-link to="/terms-conditions" class="hover:text-green-400 mr-6  mb-2 md:mb-0">Terms and conditions</nuxt-link>
+            <nuxt-link to="/kyc-policy" class="hover:text-green-400  mb-2 md:mb-0">KYC/AML/CFT Policy</nuxt-link>
           </div>
 
         </div>
@@ -52,7 +52,7 @@
         <div class="w-[50%]">
           <h1>Hizo Technology limited 2023. All rights reserved</h1>
         </div>
-        <div class="item-center inline-flex gap-3">
+        <div class="item-center inline-flex mt-3 gap-3">
           <a href="https://www.facebook.com/share/zxPegQFGWqiXLuQD/?mibextid=qi2Omg">
             <icon name="logos:facebook" size="1.3rem" />
           </a>

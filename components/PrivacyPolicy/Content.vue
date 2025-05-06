@@ -83,6 +83,26 @@
           Hizo app, refers to the SOFTWARE PRODUCT identified above
         </li>
         <li>
+          <span class="heading">Facial Data & Liveness Detection:</span>
+          To prevent fraud, our app may use Apple's TrueDepth camera (on
+          supported devices) to analyze facial geometry during identity
+          verification. This helps ensure the selfie is taken by a real, present
+          person.
+        </li>
+        <li>
+          <span class="heading">Storage:</span>
+          Never stored—processed locally and immediately discarded.
+        </li>
+        <li>
+          <span class="heading">Sharing:</span>
+          Not shared with any third parties. 
+        </li>
+
+        <li>
+          <span  class="heading">Devices without TrueDepth:</span>
+          Standard camera-based checks are used instead.
+        </li>
+        <li>
           <span class="heading">You:</span>
           a person or entity that is registered with Hizo to use the Services
         </li>
