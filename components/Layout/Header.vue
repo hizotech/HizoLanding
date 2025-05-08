@@ -73,6 +73,15 @@ onMounted(() => {
           </nuxt-link>
         </li>
         <li>
+          <nuxt-link
+            to="/support"
+            active-class="border-b-4 border-green-500"
+            class="text-green-950 inline-block pb-3 transition-colors duration-200 ease-out hover:text-green-600"
+          >
+            Support
+          </nuxt-link>
+        </li>
+        <li>
           <a
             href="http://blog.hizo.africa"
             active-class="border-b-4 border-green-500"
