@@ -29,7 +29,8 @@ const toggleFaqActivity = (index: number) => {
 </script>
 <template>
   <!-- FAQs -->
-  <section class="px-5 py-32">
+   <a href="#faqs">
+     <section class="px-5 py-32" id="faqs">
     <div class="mx-auto max-w-[75rem]">
       <div class="mx-auto mb-14 text-center md:w-9/12">
         <h2
@@ -73,5 +74,7 @@ const toggleFaqActivity = (index: number) => {
       </div>
     </div>
   </section>
+</a>
+ 
   <!-- FAQs -->
 </template>
