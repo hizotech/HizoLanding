@@ -1,6 +1,6 @@
 <template>
   <LayoutTcContent>
-    <div class="section">
+    <div class="section" id="hizo">
       <p>
         HIZO (“we,” “our,” or “us”) is committed to protecting your privacy.
         This Privacy Policy explains how your personal information is collected,
@@ -12,7 +12,7 @@
         Policy and our Terms of Service.
       </p>
     </div>
-    <div class="section">
+    <div class="section" id=license>
       <h2>License</h2>
       <p>
         To help explain things as clearly as possible in this Privacy Policy,
@@ -90,7 +90,7 @@
     </div>
 
     <!-- What Information Do We Collect? -->
-    <div class="section">
+    <div class="section" id="information">
       <h2>What Information Do We Collect?</h2>
       <p>
         We collect information from you when you visit our app, register on our
@@ -107,7 +107,7 @@
     <!-- What Information Do We Collect? end -->
     <!--  -->
 
-    <div class="section">
+    <div class="section" id="facial-data">
       <h2>Facial Data & Liveness Detection</h2>
       <p>
         To prevent fraud, our app may use Apple's TrueDepth camera (on supported
@@ -134,7 +134,7 @@
     <!--  -->
 
     <!-- When does Hizo use end-user information from third parties? -->
-    <div class="section">
+    <div class="section" id="user-data">
       <h2>When does Hizo use end-user information from third parties?</h2>
       <p>
         Hizo will collect End User Data necessary to provide the Hizo services
@@ -149,7 +149,7 @@
     <!-- When does Hizo use end-user information from third parties? end-->
 
     <!-- When does Hizo use customer information from third parties? -->
-    <div class="section">
+    <div class="section" id="third-party">
       <h2>When does Hizo use customer information from third parties?</h2>
       <p>
         We receive some information from third parties when you contact us. For
@@ -165,7 +165,7 @@
     <!-- When does Hizo use customer information from third parties? end-->
 
     <!-- Do we share the information we collect with third parties? -->
-    <div class="section">
+    <div class="section" id="share">
       <h2>Do we share the information we collect with third parties?</h2>
       <p>
         We may share the information that we collect, both personal and
@@ -212,7 +212,7 @@
     <!-- Do we share the information we collect with third parties? end-->
 
     <!-- Where and when is information collected from customers and end users? -->
-    <div class="section">
+    <div class="section" id="personal-information">
       <h2>
         Where and when is information collected from customers and end users?
       </h2>
@@ -225,7 +225,7 @@
     <!-- Where and when is information collected from customers and end users? end -->
 
     <!-- How Do We Use the Information We Collect? -->
-    <div class="section">
+    <div class="section" id="use-information">
       <h2>How Do We Use the Information We Collect?</h2>
       <p>
         Any of the information we collect from you may be used in one of the
@@ -255,7 +255,7 @@
     <!-- How Do We Use the Information We Collect? end -->
 
     <!-- How Do We Use Your Email Address? -->
-    <div class="section">
+    <div class="section" id="email-address">
       <h2>How Do We Use Your Email Address?</h2>
       <p>
         By submitting your email address on this app, you agree to receive
@@ -280,7 +280,7 @@
     <!-- How Do We Use Your Email Address? end-->
 
     <!-- How Long Do We Keep Your Information? -->
-    <div class="section">
+    <div class="section" id="keep-information">
       <h2>How Long Do We Keep Your Information?</h2>
       <p>
         We keep your information only so long as we need it to provide Hizo to
@@ -295,7 +295,7 @@
     <!-- How Long Do We Keep Your Information? -->
 
     <!-- How Do We Protect Your Information? -->
-    <div class="section">
+    <div class="section" id="protect-information">
       <h2>How Do We Protect Your Information?</h2>
       <p>
         We implement a variety of security measures to maintain the safety of
@@ -316,7 +316,7 @@
     <!-- How Do We Protect Your Information? end-->
 
     <!-- Could my information be transferred to other countries? -->
-    <div class="section">
+    <div class="section" id="transfer-information">
       <h2>Could my information be transferred to other countries?</h2>
       <p>
         Hizo is incorporated in Nigeria. Information collected via our app,
@@ -352,7 +352,7 @@
     <!-- Is the information collected through the Hizo Service secure? end-->
 
     <!-- Can I update or correct my information? -->
-    <div class="section">
+    <div class="section" id="update-information">
       <h2>Can I update or correct my information?</h2>
       <p>
         The rights that you have, to request updates or corrections to the
@@ -405,7 +405,7 @@
     <!-- Can I update or correct my information? end-->
 
     <!-- Personnel -->
-    <div class="section">
+    <div class="section" id="personnel">
       <h2>Personnel</h2>
       <p>
         If you are a Hizo worker or applicant, we collect information you
@@ -432,7 +432,7 @@
     <!-- Personnel -->
 
     <!-- Sale of Business -->
-    <div class="section">
+    <div class="section" id="sale-business">
       <h2>Sale of Business</h2>
       <p>
         We reserve the right to transfer information to a third party in the
@@ -448,7 +448,7 @@
     <!-- Sale of Business ? end-->
 
     <!-- Affiliates-->
-    <div class="section">
+    <div class="section" id="affiliates">
       <h2>Affiliates</h2>
       <p>
         We may disclose information (including personal information) about you
@@ -464,7 +464,7 @@
     <!-- Affiliates end-->
 
     <!-- Governing Law -->
-    <div class="section">
+    <div class="section" id="governing-law">
       <h2>Governing Law</h2>
       <p>
         This Privacy Policy is governed by the laws of Nigeria without regard to
@@ -492,7 +492,7 @@
     <!-- Governing Law ?-->
 
     <!-- Your Consent -->
-    <div class="section">
+    <div class="section" id="consent">
       <h2>Your Consent</h2>
       <p>
         We've updated our Privacy Policy to provide you with complete
@@ -505,7 +505,7 @@
     <!-- Your Consent end-->
 
     <!-- Links to Other Websites -->
-    <div class="section">
+    <div class="section" id="links">
       <h2>Links to Other Websites</h2>
       <p>
         This Privacy Policy applies only to the Services. The Services may
@@ -523,7 +523,7 @@
     <!-- Links to Other Websites end-->
 
     <!-- Cookies -->
-    <div class="section">
+    <div class="section" id="cookies">
       <h2>Cookies</h2>
       <p>
         Hizo uses "Cookies" to identify the areas of our app that you have
@@ -542,7 +542,7 @@
     <!-- Cookies end-->
 
     <!-- Blocking and disabling cookies and similar technologies -->
-    <div class="section">
+    <div class="section" id="block-cookies">
       <h2>Blocking and disabling cookies and similar technologies</h2>
       <p>
         Wherever you're located you may also set your browser to block cookies
@@ -560,7 +560,7 @@
     <!-- Blocking and disabling cookies and similar technologies end-->
 
     <!-- Kids' Privacy -->
-    <div class="section">
+    <div class="section" id="kids">
       <h2>Kids' Privacy</h2>
       <p>
         We do not address anyone under the age of 13. We do not knowingly
@@ -575,7 +575,7 @@
     <!-- Kids' Privacy end-->
 
     <!-- Changes To Our Privacy Policy -->
-    <div class="section">
+    <div class="section" id="change-priacy">
       <h2>Changes To Our Privacy Policy</h2>
       <p>
         We may change our Service and policies, and we may need to make changes
@@ -591,7 +591,7 @@
     <!-- Changes To Our Privacy Policy end-->
 
     <!-- Third-Party Services -->
-    <div class="section">
+    <div class="section" id="third-party">
       <h2>Third-Party Services</h2>
       <p>
         We may display, include, or make available third-party content
@@ -614,7 +614,7 @@
     <!-- Third-Party Services end-->
 
     <!-- Facebook Pixel -->
-    <div class="section">
+    <div class="section" id="facebook-pixel">
       <h2>Facebook Pixel</h2>
       <p>
         Facebook Pixel is an analytics tool that allows you to measure the
@@ -628,7 +628,7 @@
     <!-- Facebook Pixel end-->
 
     <!-- Information about the General Data Protection Regulation (GDPR) -->
-    <div class="section">
+    <div class="section"id="gdpr">
       <h2>Information about the General Data Protection Regulation (GDPR)</h2>
       <p>
         We may be collecting and using information from you if you are from the
@@ -641,7 +641,7 @@
     <!-- Information about the General Data Protection Regulation (GDPR) end-->
 
     <!-- What is GDPR? -->
-    <div class="section">
+    <div class="section" id="what-is-gdpr">
       <h2>What is GDPR?</h2>
       <p>
         GDPR is an EU-wide privacy and data protection law that regulates how EU
@@ -656,7 +656,7 @@
     <!-- What is GDPR? -->
 
     <!-- What is personal data? -->
-    <div class="section">
+    <div class="section" id="personal-data">
       <h2>What is personal data?</h2>
       <p>
         Any data that relates to an identifiable or identified individual. GDPR
@@ -693,7 +693,7 @@
     <!-- What is personal data? end-->
 
     <!-- Why is GDPR important? -->
-    <div class="section">
+    <div class="section" id="why-is-gdpr-important">
       <h2>Why is GDPR important?</h2>
       <p>
         GDPR adds some new requirements regarding how companies should protect
@@ -708,7 +708,7 @@
     <!-- Why is GDPR important? -->
 
     <!-- Individual Data Subject's Rights - Data Access, Portability and Deletion -->
-    <div class="section">
+    <div class="section" id="subject-rights">
       <h2>
         Individual Data Subject's Rights - Data Access, Portability and Deletion
       </h2>
@@ -732,7 +732,7 @@
     <!-- Individual Data Subject's Rights - Data Access, Portability and Deletion end-->
 
     <!-- User Rights -->
-    <div class="section">
+    <div class="section" id="user-rights">
       <h2>User Rights</h2>
       <p>
         Our company would like to make sure you are fully aware of all your data
@@ -776,7 +776,7 @@
     <!-- User Rights end-->
 
     <!-- Contact Us -->
-    <div class="section">
+    <div class="section" id="contact-us">
       <h2>Contact us</h2>
       <p>Don't hesitate to contact us if you have any questions.</p>
       <ul>
